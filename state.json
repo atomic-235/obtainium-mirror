@@ -605,18 +605,33 @@
       "version_name": "3.3.1"
     },
     "nodomain.freeyourgadget.gadgetbridge": {
-      "asset_name": "nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk",
+      "asset_name": "Gadgetbridge-2026.11.1.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Gadgetbridge-2026.11.1.apk",
       "author": "Freeyourgadget",
       "cert_sha256": [
         "01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be"
       ],
       "homepage": "https://codeberg.org/Freeyourgadget/Gadgetbridge",
-      "mirrored_at": "2026-11-08T16:05:51Z",
+      "mirrored_at": "2026-11-08T16:19:49Z",
       "name": "Gadgetbridge",
       "package": "nodomain.freeyourgadget.gadgetbridge",
       "proprietary": false,
       "published_at": "2026-11-07T22:22:55+01:00",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v1 scheme (JAR signing): true",
+            "Verified using v2 scheme (APK Signature Scheme v2): true",
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:19:46Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
       "sha256": "514320f301c652549d42f1556b1ddd2761566194f046248a0b35e9be8f5aa0b3",
       "size": 23920259,
       "upstream_asset": "gadgetbridge-2026.11.1.apk",

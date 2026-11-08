@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-08T16:14:08Z",
+  "exportedAt": "2026-11-08T16:19:51Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -343,7 +343,7 @@
       "name": "Gadgetbridge",
       "installedVersion": null,
       "latestVersion": "2026.11.1",
-      "apkUrls": "[[\"nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk\"]]",
+      "apkUrls": "[[\"Gadgetbridge-2026.11.1.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Gadgetbridge-2026.11.1.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",

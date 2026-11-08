@@ -1,466 +1,540 @@
 {
-  "generated_at": "2026-11-08T16:14:08Z",
+  "generated_at": "2026-11-08T16:19:51Z",
   "apps": [
     {
-      "name": "Obtainium",
-      "author": "ImranR98",
-      "package": "dev.imranr.obtainium",
-      "version_name": "1.7.4",
-      "version_code": 23623,
-      "sha256": "f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
-      "size": 34609838,
       "asset_name": "Obtainium-1.7.4.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.4.apk",
-      "upstream_ref": "github:430404214:697577559:f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
-      "upstream_tag": "v1.7.4",
-      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.4",
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "published_at": "2026-11-01T06:51:24Z",
-      "mirrored_at": "2026-11-08T16:12:28Z",
-      "proprietary": false,
+      "author": "ImranR98",
       "homepage": "https://github.com/ImranR98/Obtainium",
+      "mirrored_at": "2026-11-08T16:12:28Z",
+      "name": "Obtainium",
+      "package": "dev.imranr.obtainium",
+      "proprietary": false,
+      "published_at": "2026-11-01T06:51:24Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:12:25Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:12:25Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
+      "size": 34609838,
+      "upstream_asset": "app-arm64-v8a-release.apk",
+      "upstream_ref": "github:430404214:697577559:f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
+      "upstream_tag": "v1.7.4",
+      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.4",
+      "version_code": 23623,
+      "version_name": "1.7.4",
       "cert_sha256": [
         "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.imranr.obtainium/"
     },
     {
-      "name": "OSS Document Scanner",
-      "author": "ossappscollective",
-      "package": "com.akylas.documentscanner",
-      "version_name": "1.26.2.165",
-      "version_code": 165,
-      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
-      "size": 12006447,
       "asset_name": "OSS-Document-Scanner-1.26.2.165.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-1.26.2.165.apk",
+      "author": "ossappscollective",
+      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
+      "mirrored_at": "2026-11-08T16:12:31Z",
+      "name": "OSS Document Scanner",
+      "package": "com.akylas.documentscanner",
+      "proprietary": false,
+      "published_at": "2026-10-22T14:17:01Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:12:30Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
+      "size": 12006447,
+      "upstream_asset": "app-arm64-v8a-release.apk",
       "upstream_ref": "github:420812743:666081923:bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
       "upstream_tag": "com.akylas.documentscanner/android/github/1.26.2/165",
       "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/1.26.2/165",
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "published_at": "2026-10-22T14:17:01Z",
-      "mirrored_at": "2026-11-08T16:12:31Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:12:30Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 165,
+      "version_name": "1.26.2.165",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.akylas.documentscanner/"
     },
     {
-      "name": "Hiddify",
-      "author": "hiddify",
-      "package": "app.hiddify.com",
-      "version_name": "5.5.5",
-      "version_code": 50505,
-      "sha256": "d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-      "size": 63989614,
       "asset_name": "Hiddify-5.5.5.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.5.5.apk",
+      "author": "hiddify",
+      "homepage": "https://github.com/hiddify/hiddify-app",
+      "mirrored_at": "2026-11-08T16:12:37Z",
+      "name": "Hiddify",
+      "package": "app.hiddify.com",
+      "proprietary": false,
+      "published_at": "2026-11-04T21:06:14Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:12:33Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
+      "size": 63989614,
+      "upstream_asset": "Hiddify-Android-arm64.apk",
       "upstream_ref": "github:434454291:710938424:d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
       "upstream_tag": "v5.5.5",
       "upstream_url": "https://github.com/hiddify/hiddify-app/releases/tag/v5.5.5",
-      "upstream_asset": "Hiddify-Android-arm64.apk",
-      "published_at": "2026-11-04T21:06:14Z",
-      "mirrored_at": "2026-11-08T16:12:37Z",
-      "proprietary": false,
-      "homepage": "https://github.com/hiddify/hiddify-app",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:12:33Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 50505,
+      "version_name": "5.5.5",
       "cert_sha256": [
         "454bf1f622d0fd5ebf93d4ce51fe5d4a93083b710bf2a01480cd570254c73d92"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/app.hiddify.com/"
     },
     {
-      "name": "HeliBoard",
-      "author": "HeliBorg",
-      "package": "helium314.keyboard",
-      "version_name": "4.2",
-      "version_code": 4201,
-      "sha256": "69b2b2fb349934371b1ed2d3569541cc0bda987f8aaf5eb5f5b157961f76de86",
-      "size": 22431797,
       "asset_name": "HeliBoard-4.2.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/HeliBoard-4.2.apk",
-      "upstream_ref": "github:410852386:634476100:69b2b2fb349934371b1ed2d3569541cc0bda987f8aaf5eb5f5b157961f76de86",
-      "upstream_tag": "v4.2",
-      "upstream_url": "https://github.com/HeliBorg/HeliBoard/releases/tag/v4.2",
-      "upstream_asset": "HeliBoard_4.2-release.apk",
-      "published_at": "2026-10-12T17:32:37Z",
-      "mirrored_at": "2026-11-08T16:12:41Z",
-      "proprietary": false,
+      "author": "HeliBorg",
       "homepage": "https://github.com/HeliBorg/HeliBoard",
+      "mirrored_at": "2026-11-08T16:12:41Z",
+      "name": "HeliBoard",
+      "package": "helium314.keyboard",
+      "proprietary": false,
+      "published_at": "2026-10-12T17:32:37Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:12:38Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:12:38Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "69b2b2fb349934371b1ed2d3569541cc0bda987f8aaf5eb5f5b157961f76de86",
+      "size": 22431797,
+      "upstream_asset": "HeliBoard_4.2-release.apk",
+      "upstream_ref": "github:410852386:634476100:69b2b2fb349934371b1ed2d3569541cc0bda987f8aaf5eb5f5b157961f76de86",
+      "upstream_tag": "v4.2",
+      "upstream_url": "https://github.com/HeliBorg/HeliBoard/releases/tag/v4.2",
+      "version_code": 4201,
+      "version_name": "4.2",
       "cert_sha256": [
         "5ec0a5313aa43558ee75b20b58ccd8194cdbf066df94a43ba288d933d60b86ce"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/helium314.keyboard/"
     },
     {
-      "name": "KeePassDX",
-      "author": "Kunzisoft",
-      "package": "com.kunzisoft.keepass.libre",
-      "version_name": "4.5.8",
-      "version_code": 45800,
-      "sha256": "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
-      "size": 16786874,
       "asset_name": "KeePassDX-4.5.8.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.8.apk",
-      "upstream_ref": "github:430156592:696358622:8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
-      "upstream_tag": "4.5.8",
-      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.8",
-      "upstream_asset": "KeePassDX-4.5.8-libre.apk",
-      "published_at": "2026-10-31T20:06:43Z",
-      "mirrored_at": "2026-11-08T16:12:44Z",
-      "proprietary": false,
+      "author": "Kunzisoft",
       "homepage": "https://github.com/Kunzisoft/KeePassDX",
+      "mirrored_at": "2026-11-08T16:12:44Z",
+      "name": "KeePassDX",
+      "package": "com.kunzisoft.keepass.libre",
+      "proprietary": false,
+      "published_at": "2026-10-31T20:06:43Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:12:42Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:12:42Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
+      "size": 16786874,
+      "upstream_asset": "KeePassDX-4.5.8-libre.apk",
+      "upstream_ref": "github:430156592:696358622:8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
+      "upstream_tag": "4.5.8",
+      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.8",
+      "version_code": 45800,
+      "version_name": "4.5.8",
       "cert_sha256": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.kunzisoft.keepass.libre/"
     },
     {
-      "name": "Coffee",
-      "author": "OpenAppsLabs",
-      "package": "com.openappslabs.coffee",
-      "version_name": "1.6.1",
-      "version_code": 9,
-      "sha256": "08cd29b9861a75807dd2f3a69eed063ec7213559cf46995f382a8941a3fb832b",
-      "size": 3987335,
       "asset_name": "Coffee-1.6.1.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Coffee-1.6.1.apk",
+      "author": "OpenAppsLabs",
+      "homepage": "https://github.com/OpenAppsLabs/Coffee",
+      "mirrored_at": "2026-11-08T16:12:47Z",
+      "name": "Coffee",
+      "package": "com.openappslabs.coffee",
+      "proprietary": false,
+      "published_at": "2026-10-28T10:43:10Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:12:45Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "08cd29b9861a75807dd2f3a69eed063ec7213559cf46995f382a8941a3fb832b",
+      "size": 3987335,
+      "upstream_asset": "app-release.apk",
       "upstream_ref": "github:426540333:684657097:08cd29b9861a75807dd2f3a69eed063ec7213559cf46995f382a8941a3fb832b",
       "upstream_tag": "v1.6.1",
       "upstream_url": "https://github.com/OpenAppsLabs/Coffee/releases/tag/v1.6.1",
-      "upstream_asset": "app-release.apk",
-      "published_at": "2026-10-28T10:43:10Z",
-      "mirrored_at": "2026-11-08T16:12:47Z",
-      "proprietary": false,
-      "homepage": "https://github.com/OpenAppsLabs/Coffee",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:12:45Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 9,
+      "version_name": "1.6.1",
       "cert_sha256": [
         "d753f0b3167ecbf2addfbc4fd5d152c1204c9c636bbd8dcf90ec89406aa6bb1c"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.openappslabs.coffee/"
     },
     {
-      "name": "GPTMobile",
-      "author": "Taewan-P",
-      "package": "dev.chungjungsoo.gptmobile",
-      "version_name": "0.9.1",
-      "version_code": 25,
-      "sha256": "ac18347c2dd58c256026ebc3e6bddc092cc71f68dc04b582f105c548c3e0f2aa",
-      "size": 61788137,
       "asset_name": "GPTMobile-0.9.1.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/GPTMobile-0.9.1.apk",
+      "author": "Taewan-P",
+      "homepage": "https://github.com/Taewan-P/gpt_mobile",
+      "mirrored_at": "2026-11-08T16:12:51Z",
+      "name": "GPTMobile",
+      "package": "dev.chungjungsoo.gptmobile",
+      "proprietary": false,
+      "published_at": "2026-09-28T18:18:52Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:12:48Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "ac18347c2dd58c256026ebc3e6bddc092cc71f68dc04b582f105c548c3e0f2aa",
+      "size": 61788137,
+      "upstream_asset": "GPTMobile-v0.9.1.apk",
       "upstream_ref": "github:398507237:596106611:ac18347c2dd58c256026ebc3e6bddc092cc71f68dc04b582f105c548c3e0f2aa",
       "upstream_tag": "v0.9.1",
       "upstream_url": "https://github.com/Taewan-P/gpt_mobile/releases/tag/v0.9.1",
-      "upstream_asset": "GPTMobile-v0.9.1.apk",
-      "published_at": "2026-09-28T18:18:52Z",
-      "mirrored_at": "2026-11-08T16:12:51Z",
-      "proprietary": false,
-      "homepage": "https://github.com/Taewan-P/gpt_mobile",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:12:48Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 25,
+      "version_name": "0.9.1",
       "cert_sha256": [
         "ad787e4bf867c4ae4bbb7ce6db6a4d1e72539dc7f2930e3c5ab51e13c3312e0d"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.chungjungsoo.gptmobile/"
     },
     {
-      "name": "NewPipe",
-      "author": "TeamNewPipe",
-      "package": "org.schabi.newpipe",
-      "version_name": "0.29.2",
-      "version_code": 1016,
-      "sha256": "318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
-      "size": 16980865,
       "asset_name": "NewPipe-0.29.2.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.2.apk",
-      "upstream_ref": "github:359715260:721863393:318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
-      "upstream_tag": "v0.29.2",
-      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.2",
-      "upstream_asset": "NewPipe_v0.29.2.apk",
-      "published_at": "2026-11-07T21:14:05Z",
-      "mirrored_at": "2026-11-08T16:12:55Z",
-      "proprietary": false,
+      "author": "TeamNewPipe",
       "homepage": "https://github.com/TeamNewPipe/NewPipe",
+      "mirrored_at": "2026-11-08T16:12:55Z",
+      "name": "NewPipe",
+      "package": "org.schabi.newpipe",
+      "proprietary": false,
+      "published_at": "2026-11-07T21:14:05Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:12:53Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:12:53Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
+      "size": 16980865,
+      "upstream_asset": "NewPipe_v0.29.2.apk",
+      "upstream_ref": "github:359715260:721863393:318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
+      "upstream_tag": "v0.29.2",
+      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.2",
+      "version_code": 1016,
+      "version_name": "0.29.2",
       "cert_sha256": [
         "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "name": "Librera FD",
-      "author": "foobnix",
-      "package": "com.foobnix.pro.pdf.reader",
-      "version_name": "10.0.27-fdroid",
-      "version_code": 7555,
-      "sha256": "9fa1e6b047376185b5e2bbe51bfaa358bf3746fcf6cf85732ee0cca2fba6ae27",
-      "size": 124714293,
       "asset_name": "Librera-FD-10.0.27-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.27-fdroid.apk",
+      "author": "foobnix",
+      "homepage": "https://github.com/foobnix/LibreraReader",
+      "mirrored_at": "2026-11-08T16:13:03Z",
+      "name": "Librera FD",
+      "package": "com.foobnix.pro.pdf.reader",
+      "proprietary": false,
+      "published_at": "2026-11-05T11:54:03Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:12:57Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "9fa1e6b047376185b5e2bbe51bfaa358bf3746fcf6cf85732ee0cca2fba6ae27",
+      "size": 124714293,
+      "upstream_asset": "Librera.Fdroid-10.0.27-mupdf-uni.apk",
       "upstream_ref": "github:435140059:713239485:9fa1e6b047376185b5e2bbe51bfaa358bf3746fcf6cf85732ee0cca2fba6ae27",
       "upstream_tag": "10.0.27",
       "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.27",
-      "upstream_asset": "Librera.Fdroid-10.0.27-mupdf-uni.apk",
-      "published_at": "2026-11-05T11:54:03Z",
-      "mirrored_at": "2026-11-08T16:13:03Z",
-      "proprietary": false,
-      "homepage": "https://github.com/foobnix/LibreraReader",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:12:57Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 7555,
+      "version_name": "10.0.27-fdroid",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.foobnix.pro.pdf.reader/"
     },
     {
-      "name": "RSAF",
-      "author": "chenxiaolong",
-      "package": "com.chiller3.rsaf",
-      "version_name": "4.17",
-      "version_code": 266498,
-      "sha256": "9c2546aad1c787250fe93ef76c7dc317eba2e13a47374f3ae2ac56f7d5c3156b",
-      "size": 74233811,
       "asset_name": "RSAF-4.17.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/RSAF-4.17.apk",
+      "author": "chenxiaolong",
+      "homepage": "https://github.com/chenxiaolong/RSAF",
+      "mirrored_at": "2026-11-08T16:13:07Z",
+      "name": "RSAF",
+      "package": "com.chiller3.rsaf",
+      "proprietary": false,
+      "published_at": "2026-11-06T23:00:58Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:13:04Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "9c2546aad1c787250fe93ef76c7dc317eba2e13a47374f3ae2ac56f7d5c3156b",
+      "size": 74233811,
+      "upstream_asset": "RSAF-4.17-arm64-v8a-release.apk",
       "upstream_ref": "github:437146441:718861585:9c2546aad1c787250fe93ef76c7dc317eba2e13a47374f3ae2ac56f7d5c3156b",
       "upstream_tag": "v4.17",
       "upstream_url": "https://github.com/chenxiaolong/RSAF/releases/tag/v4.17",
-      "upstream_asset": "RSAF-4.17-arm64-v8a-release.apk",
-      "published_at": "2026-11-06T23:00:58Z",
-      "mirrored_at": "2026-11-08T16:13:07Z",
-      "proprietary": false,
-      "homepage": "https://github.com/chenxiaolong/RSAF",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:13:04Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 266498,
+      "version_name": "4.17",
       "cert_sha256": [
         "b2506499bea1c5a6e658f07be6773fe486999dc124204c6522af7407503ac9f9"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.chiller3.rsaf/"
     },
     {
-      "name": "AirGuard",
-      "author": "seemoo-lab",
-      "package": "de.seemoo.at_tracking_detection.release",
-      "version_name": "3.1.3",
-      "version_code": 69,
-      "sha256": "6fd3e5d1c3c1255f44ac29ed27e50fba760180dcdc4f452d7560c1e28ca12a93",
-      "size": 9196952,
       "asset_name": "AirGuard-3.1.3.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/AirGuard-3.1.3.apk",
+      "author": "seemoo-lab",
+      "homepage": "https://github.com/seemoo-lab/AirGuard",
+      "mirrored_at": "2026-11-08T16:13:11Z",
+      "name": "AirGuard",
+      "package": "de.seemoo.at_tracking_detection.release",
+      "proprietary": false,
+      "published_at": "2026-09-28T11:27:21Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:13:08Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "6fd3e5d1c3c1255f44ac29ed27e50fba760180dcdc4f452d7560c1e28ca12a93",
+      "size": 9196952,
+      "upstream_asset": "AirGuard.3.1.3.Github.apk",
       "upstream_ref": "github:398175083:595217193:6fd3e5d1c3c1255f44ac29ed27e50fba760180dcdc4f452d7560c1e28ca12a93",
       "upstream_tag": "3.1.3",
       "upstream_url": "https://github.com/seemoo-lab/AirGuard/releases/tag/3.1.3",
-      "upstream_asset": "AirGuard.3.1.3.Github.apk",
-      "published_at": "2026-09-28T11:27:21Z",
-      "mirrored_at": "2026-11-08T16:13:11Z",
-      "proprietary": false,
-      "homepage": "https://github.com/seemoo-lab/AirGuard",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:13:08Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 69,
+      "version_name": "3.1.3",
       "cert_sha256": [
         "98b9e18918dbbbbb8381dcf359f447372de706fd9487396d1ef38f2039304148"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/de.seemoo.at_tracking_detection.release/"
     },
     {
-      "name": "Proton Drive",
-      "author": "ProtonDriveApps",
-      "package": "me.proton.android.drive",
-      "version_name": "3.3.1",
-      "version_code": 47941,
-      "sha256": "e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
-      "size": 199333848,
       "asset_name": "Proton-Drive-3.3.1.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.3.1.apk",
+      "author": "ProtonDriveApps",
+      "homepage": "https://github.com/ProtonDriveApps/android-drive",
+      "mirrored_at": "2026-11-08T16:13:21Z",
+      "name": "Proton Drive",
+      "package": "me.proton.android.drive",
+      "proprietary": false,
+      "published_at": "2026-11-02T10:56:13Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:13:13Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
+      "size": 199333848,
+      "upstream_asset": "ProtonDrive-3.3.1.4794.apk",
       "upstream_ref": "github:431349065:701433720:e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
       "upstream_tag": "3.3.1",
       "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.3.1",
-      "upstream_asset": "ProtonDrive-3.3.1.4794.apk",
-      "published_at": "2026-11-02T10:56:13Z",
-      "mirrored_at": "2026-11-08T16:13:21Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ProtonDriveApps/android-drive",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:13:13Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 47941,
+      "version_name": "3.3.1",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/me.proton.android.drive/"
     },
     {
-      "name": "Proton Mail",
-      "author": "ProtonMail",
-      "package": "ch.protonmail.android",
-      "version_name": "7.11.12",
-      "version_code": 18327,
-      "sha256": "a28d672466da3b4baae467fb5860783aa5a1a92ebf7d4cb9ae2479c59f8f439c",
-      "size": 159142741,
       "asset_name": "Proton-Mail-7.11.12.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.11.12.apk",
+      "author": "ProtonMail",
+      "homepage": "https://github.com/ProtonMail/android-mail",
+      "mirrored_at": "2026-11-08T16:13:30Z",
+      "name": "Proton Mail",
+      "package": "ch.protonmail.android",
+      "proprietary": false,
+      "published_at": "2026-11-04T13:53:15Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:13:24Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "a28d672466da3b4baae467fb5860783aa5a1a92ebf7d4cb9ae2479c59f8f439c",
+      "size": 159142741,
+      "upstream_asset": "ProtonMail-7.11.12_18327.apk",
       "upstream_ref": "github:433972729:709648779:a28d672466da3b4baae467fb5860783aa5a1a92ebf7d4cb9ae2479c59f8f439c",
       "upstream_tag": "7.11.12(18327)",
       "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.11.12(18327)",
-      "upstream_asset": "ProtonMail-7.11.12_18327.apk",
-      "published_at": "2026-11-04T13:53:15Z",
-      "mirrored_at": "2026-11-08T16:13:30Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ProtonMail/android-mail",
+      "version_code": 18327,
+      "version_name": "7.11.12",
+      "cert_sha256": [
+        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/ch.protonmail.android/"
+    },
+    {
+      "asset_name": "Venice-AI-1.17.19.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.19.apk",
+      "author": "venice.ai",
+      "homepage": "https://venice.ai/lp/download",
+      "mirrored_at": "2026-11-08T16:13:41Z",
+      "name": "Venice AI",
+      "package": "com.ai.venice",
+      "proprietary": true,
+      "published_at": "2026-10-31T21:24:06Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:13:24Z",
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:13:32Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
+      "size": 211697156,
+      "upstream_asset": "venice.apk",
+      "upstream_ref": "github:430194745:696518939:526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
+      "upstream_tag": "v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
+      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
+      "version_code": 210,
+      "version_name": "1.17.19",
+      "cert_sha256": [
+        "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.ai.venice/"
+    },
+    {
+      "name": "Gadgetbridge",
+      "author": "Freeyourgadget",
+      "package": "nodomain.freeyourgadget.gadgetbridge",
+      "version_name": "2026.11.1",
+      "version_code": 257,
+      "sha256": "514320f301c652549d42f1556b1ddd2761566194f046248a0b35e9be8f5aa0b3",
+      "size": 23920259,
+      "asset_name": "Gadgetbridge-2026.11.1.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Gadgetbridge-2026.11.1.apk",
+      "upstream_ref": "forgejo:13490691:2186064:23920259",
+      "upstream_tag": "2026.11.1",
+      "upstream_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/tag/2026.11.1",
+      "upstream_asset": "gadgetbridge-2026.11.1.apk",
+      "published_at": "2026-11-07T22:22:55+01:00",
+      "mirrored_at": "2026-11-08T16:19:49Z",
+      "proprietary": false,
+      "homepage": "https://codeberg.org/Freeyourgadget/Gadgetbridge",
+      "security_scan": {
+        "scanned_at": "2026-11-08T16:19:46Z",
         "apksigner": {
           "status": "verified",
           "schemes": [
+            "Verified using v1 scheme (JAR signing): true",
+            "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
           ]
         },
@@ -470,103 +544,44 @@
         }
       },
       "cert_sha256": [
-        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
-      ],
-      "page": "https://atomic-235.github.io/obtainium-mirror/apps/ch.protonmail.android/"
-    },
-    {
-      "name": "Venice AI",
-      "author": "venice.ai",
-      "package": "com.ai.venice",
-      "version_name": "1.17.19",
-      "version_code": 210,
-      "sha256": "526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "size": 211697156,
-      "asset_name": "Venice-AI-1.17.19.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.19.apk",
-      "upstream_ref": "github:430194745:696518939:526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "upstream_tag": "v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "upstream_asset": "venice.apk",
-      "published_at": "2026-10-31T21:24:06Z",
-      "mirrored_at": "2026-11-08T16:13:41Z",
-      "proprietary": true,
-      "homepage": "https://venice.ai/lp/download",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:13:32Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
-      "cert_sha256": [
-        "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
-      ],
-      "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.ai.venice/"
-    },
-    {
-      "asset_name": "nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/nodomain.freeyourgadget.gadgetbridge__257__2026.11.1.apk",
-      "author": "Freeyourgadget",
-      "homepage": "https://codeberg.org/Freeyourgadget/Gadgetbridge",
-      "mirrored_at": "2026-11-08T16:05:51Z",
-      "name": "Gadgetbridge",
-      "package": "nodomain.freeyourgadget.gadgetbridge",
-      "proprietary": false,
-      "published_at": "2026-11-07T22:22:55+01:00",
-      "sha256": "514320f301c652549d42f1556b1ddd2761566194f046248a0b35e9be8f5aa0b3",
-      "size": 23920259,
-      "upstream_asset": "gadgetbridge-2026.11.1.apk",
-      "upstream_ref": "forgejo:13490691:2186064:23920259",
-      "upstream_tag": "2026.11.1",
-      "upstream_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/tag/2026.11.1",
-      "version_code": 257,
-      "version_name": "2026.11.1",
-      "cert_sha256": [
         "01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.44.71",
-      "version_code": 264407138,
-      "sha256": "fdc09052adb72e97f42661dddd28d06ea19c3ca2a83b2967064a2169d4afef28",
-      "size": 155824557,
       "asset_name": "WhatsApp-2.26.44.71.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.44.71.apk",
-      "upstream_ref": "direct:|Fri, 06 Nov 2026 07:33:00 GMT|155824557",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Fri, 06 Nov 2026 07:33:00 GMT",
-      "mirrored_at": "2026-11-08T16:13:55Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-08T16:13:55Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Fri, 06 Nov 2026 07:33:00 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:13:49Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:13:49Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "fdc09052adb72e97f42661dddd28d06ea19c3ca2a83b2967064a2169d4afef28",
+      "size": 155824557,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Fri, 06 Nov 2026 07:33:00 GMT|155824557",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264407138,
+      "version_name": "2.26.44.71",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
@@ -574,110 +589,110 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.whatsapp/"
     },
     {
-      "name": "Proton VPN",
-      "author": "ProtonVPN",
-      "package": "ch.protonvpn.android.reproducible",
-      "version_name": "5.20.98.0",
-      "version_code": 605209800,
-      "sha256": "a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
-      "size": 60489358,
       "asset_name": "Proton-VPN-5.20.98.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.20.98.0.apk",
-      "upstream_ref": "github:420482970:665212705:a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
-      "upstream_tag": "5.20.98.0",
-      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.20.98.0",
-      "upstream_asset": "ProtonVPN-5.20.98.0.605209800.-production-vanilla-openSource-release-fdroid.apk",
-      "published_at": "2026-10-22T08:39:29Z",
-      "mirrored_at": "2026-11-08T16:13:59Z",
-      "proprietary": false,
+      "author": "ProtonVPN",
       "homepage": "https://github.com/ProtonVPN/android-app",
+      "mirrored_at": "2026-11-08T16:13:59Z",
+      "name": "Proton VPN",
+      "package": "ch.protonvpn.android.reproducible",
+      "proprietary": false,
+      "published_at": "2026-10-22T08:39:29Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:13:56Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:13:56Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
+      "size": 60489358,
+      "upstream_asset": "ProtonVPN-5.20.98.0.605209800.-production-vanilla-openSource-release-fdroid.apk",
+      "upstream_ref": "github:420482970:665212705:a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
+      "upstream_tag": "5.20.98.0",
+      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.20.98.0",
+      "version_code": 605209800,
+      "version_name": "5.20.98.0",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/ch.protonvpn.android.reproducible/"
     },
     {
-      "name": "SimpleLogin",
-      "author": "simple-login",
-      "package": "io.simplelogin.android.fdroid",
-      "version_name": "1.22.0",
-      "version_code": 12200,
-      "sha256": "8fff5f9af999df02ef8058e4bba1a21b0f1d793dbc057c22896e29fffdfff5d7",
-      "size": 7027201,
       "asset_name": "SimpleLogin-1.22.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/SimpleLogin-1.22.0.apk",
-      "upstream_ref": "github:163276354:176928972:7027201",
-      "upstream_tag": "1.22.0",
-      "upstream_url": "https://github.com/simple-login/Simple-Login-Android/releases/tag/1.22.0",
-      "upstream_asset": "simplelogin-fdroid-1.22.0.apk",
-      "published_at": "2024-07-01T06:10:18Z",
-      "mirrored_at": "2026-11-08T16:14:02Z",
-      "proprietary": false,
+      "author": "simple-login",
       "homepage": "https://github.com/simple-login/Simple-Login-Android",
+      "mirrored_at": "2026-11-08T16:14:02Z",
+      "name": "SimpleLogin",
+      "package": "io.simplelogin.android.fdroid",
+      "proprietary": false,
+      "published_at": "2024-07-01T06:10:18Z",
       "security_scan": {
-        "scanned_at": "2026-11-08T16:14:00Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-08T16:14:00Z",
         "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
         }
       },
+      "sha256": "8fff5f9af999df02ef8058e4bba1a21b0f1d793dbc057c22896e29fffdfff5d7",
+      "size": 7027201,
+      "upstream_asset": "simplelogin-fdroid-1.22.0.apk",
+      "upstream_ref": "github:163276354:176928972:7027201",
+      "upstream_tag": "1.22.0",
+      "upstream_url": "https://github.com/simple-login/Simple-Login-Android/releases/tag/1.22.0",
+      "version_code": 12200,
+      "version_name": "1.22.0",
       "cert_sha256": [
         "3ea1be558aba9d0c8caaaa75ea917adba46a5e8bbf82bc7e69486beb7c54c001"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.simplelogin.android.fdroid/"
     },
     {
-      "name": "CU GUI",
-      "author": "GameTec-live",
-      "package": "io.chameleon.ultra",
-      "version_name": "1.4.0",
-      "version_code": 2457,
-      "sha256": "f52c909026327f9a6c6628d7ce925ec9b84e75370caaa33ec77f0e55b5718c4c",
-      "size": 102616363,
       "asset_name": "CU-GUI-1.4.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/CU-GUI-1.4.0.apk",
+      "author": "GameTec-live",
+      "homepage": "https://github.com/GameTec-live/ChameleonUltraGUI",
+      "mirrored_at": "2026-11-08T16:14:08Z",
+      "name": "CU GUI",
+      "package": "io.chameleon.ultra",
+      "proprietary": false,
+      "published_at": "2026-11-06T23:53:01Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:14:04Z",
+        "virustotal": {
+          "reason": "VT_API_KEY not set",
+          "status": "skipped"
+        }
+      },
+      "sha256": "f52c909026327f9a6c6628d7ce925ec9b84e75370caaa33ec77f0e55b5718c4c",
+      "size": 102616363,
+      "upstream_asset": "apk.zip",
       "upstream_ref": "github:437190628:719016067:f52c909026327f9a6c6628d7ce925ec9b84e75370caaa33ec77f0e55b5718c4c",
       "upstream_tag": "1.4",
       "upstream_url": "https://github.com/GameTec-live/ChameleonUltraGUI/releases/tag/1.4",
-      "upstream_asset": "apk.zip",
-      "published_at": "2026-11-06T23:53:01Z",
-      "mirrored_at": "2026-11-08T16:14:08Z",
-      "proprietary": false,
-      "homepage": "https://github.com/GameTec-live/ChameleonUltraGUI",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:14:04Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "skipped",
-          "reason": "VT_API_KEY not set"
-        }
-      },
+      "version_code": 2457,
+      "version_name": "1.4.0",
       "cert_sha256": [
         "8c6a33f5276a34b2afb71552cde233ed417361371448e7b44ba851d1030da038"
       ],
