@@ -15,11 +15,13 @@ skipped and the rest of the pipeline still runs.
 
 from __future__ import annotations
 
+import json
 import os
 import shutil
 import subprocess
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
@@ -27,7 +29,16 @@ VT_API_KEY = os.environ.get("VT_API_KEY", "").strip()
 VT_MAX_MALICIOUS = int(os.environ.get("VT_MAX_MALICIOUS", "0"))
 VT_MAX_SUSPICIOUS = int(os.environ.get("VT_MAX_SUSPICIOUS", "2"))
 VT_API = "https://www.virustotal.com/api/v3/files"
+ROOT = Path(__file__).resolve().parent.parent
+ALLOWLIST_FILE = ROOT / "security_allowlist.json"
 _VT_LAST_CALL = 0.0
+
+
+def load_allowlist() -> dict:
+    try:
+        return json.loads(ALLOWLIST_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
 
 
 def now_iso() -> str:
@@ -99,6 +110,11 @@ def virustotal_lookup(sha256: str) -> dict:
     data = response.json().get("data", {})
     attributes = data.get("attributes", {})
     stats = attributes.get("last_analysis_stats", {}) or {}
+    detections = [
+        f"{engine}: {details.get('result')}"
+        for engine, details in (attributes.get("last_analysis_results") or {}).items()
+        if details.get("category") in ("malicious", "suspicious")
+    ]
     return {
         "status": "found",
         "malicious": int(stats.get("malicious", 0)),
@@ -107,28 +123,42 @@ def virustotal_lookup(sha256: str) -> dict:
         "harmless": int(stats.get("harmless", 0)),
         "reputation": attributes.get("reputation"),
         "last_analysis_date": attributes.get("last_analysis_date"),
+        "detections": detections,
         "permalink": f"https://www.virustotal.com/gui/file/{sha256}",
         "checked_at": now_iso(),
     }
 
 
-def check_virustotal_result(sha256: str, result: dict) -> None:
+def check_virustotal_result(sha256: str, result: dict, package: str | None = None) -> None:
     if result.get("status") != "found":
         return
+    max_malicious = VT_MAX_MALICIOUS
+    max_suspicious = VT_MAX_SUSPICIOUS
+    if package:
+        exception = load_allowlist().get(package)
+        if exception and exception.get("sha256") == sha256:
+            max_malicious = int(exception.get("max_malicious", max_malicious))
+            max_suspicious = int(exception.get("max_suspicious", max_suspicious))
+            print(
+                f"NOTE: {package} allowlisted for {sha256[:12]}… "
+                f"({exception.get('reason', 'no reason given')})"
+            )
     malicious = int(result.get("malicious", 0))
     suspicious = int(result.get("suspicious", 0))
-    if malicious > VT_MAX_MALICIOUS or suspicious > VT_MAX_SUSPICIOUS:
+    if malicious > max_malicious or suspicious > max_suspicious:
+        detections = "; ".join(result.get("detections") or [])
         raise RuntimeError(
             "VirusTotal flagged the APK: "
             f"malicious={malicious}, suspicious={suspicious}\n"
+            f"    {detections}\n"
             f"    {result.get('permalink')}"
         )
 
 
-def scan_apk(path: str, sha256: str) -> dict:
+def scan_apk(path: str, sha256: str, package: str | None = None) -> dict:
     signature = verify_with_apksigner(path)
     vt = virustotal_lookup(sha256)
-    check_virustotal_result(sha256, vt)
+    check_virustotal_result(sha256, vt, package)
     return {
         "scanned_at": now_iso(),
         "apksigner": signature,

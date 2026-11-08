@@ -1,0 +1,8 @@
+{
+  "de.seemoo.at_tracking_detection.release": {
+    "sha256": "6fd3e5d1c3c1255f44ac29ed27e50fba760180dcdc4f452d7560c1e28ca12a93",
+    "max_malicious": 1,
+    "max_suspicious": 2,
+    "reason": "AirGuard is a GPL anti-stalking app from TU Darmstadt. A single VirusTotal engine flags this build; the exception is pinned to this exact SHA-256 and expires with the next release."
+  }
+}

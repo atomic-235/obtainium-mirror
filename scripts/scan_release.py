@@ -86,8 +86,10 @@ def main() -> int:
                 f"suspicious={vt.get('suspicious')} "
                 f"undetected={vt.get('undetected')}"
             )
+            if vt.get("detections"):
+                print(f"  detections: {'; '.join(vt['detections'])}")
             try:
-                check_virustotal_result(entry["sha256"], vt)
+                check_virustotal_result(entry["sha256"], vt, package)
             except Exception as exc:  # noqa: BLE001
                 errors.append(str(exc))
         elif status == "not_found":

@@ -649,9 +649,9 @@ def sync_app(
 
         if same_apk:
             log(f"[{package}] bytes unchanged, refreshing upstream reference only")
-            security_scan = previous.get("security_scan") or scan_apk(str(apk_path), digest)
+            security_scan = previous.get("security_scan") or scan_apk(str(apk_path), digest, package)
         else:
-            security_scan = scan_apk(str(apk_path), digest)
+            security_scan = scan_apk(str(apk_path), digest, package)
             if not dry_run:
                 upload_asset(apk_path, asset_name)
                 old_names = {resolved.asset_name}
