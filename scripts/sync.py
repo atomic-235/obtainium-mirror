@@ -412,14 +412,20 @@ def gh_cli(args: list[str], check: bool = True) -> subprocess.CompletedProcess[s
         raise RuntimeError("GH_TOKEN is not set; cannot publish release assets")
     env = os.environ.copy()
     env["GH_TOKEN"] = GH_TOKEN
-    return subprocess.run(
+    result = subprocess.run(
         ["gh", *args],
         cwd=ROOT,
         text=True,
         capture_output=True,
         env=env,
-        check=check,
     )
+    if check and result.returncode != 0:
+        detail = (result.stderr or result.stdout).strip()
+        raise RuntimeError(
+            f"gh {' '.join(args)} failed with exit status {result.returncode}:\n"
+            f"{detail[:4000]}"
+        )
+    return result
 
 
 def get_release_assets() -> dict[str, int]:
@@ -464,7 +470,30 @@ def upload_asset(path: Path, asset_name: str) -> None:
         if upload_path.exists():
             upload_path.unlink()
         shutil.copyfile(path, upload_path)
-    gh_cli(["release", "upload", RELEASE_TAG, str(upload_path), "--clobber"])
+
+    upload = ["release", "upload", RELEASE_TAG, str(upload_path), "--clobber"]
+    result = gh_cli(upload, check=False)
+    detail = (result.stderr or result.stdout).strip()
+    if result.returncode != 0 and "already exists" in detail.lower():
+        # GitHub asset names are unique case-insensitively. An old upstream
+        # filename (e.g. gadgetbridge-2026.11.1.apk) can collide with the new
+        # readable name (Gadgetbridge-2026.11.1.apk). Remove only the exact
+        # case-insensitive conflict, then retry.
+        for name, asset_id in get_release_assets().items():
+            if name.lower() == asset_name.lower():
+                log(f"    deleting conflicting asset {name}")
+                gh_cli(
+                    ["api", "-X", "DELETE", f"repos/{REPO}/releases/assets/{asset_id}"],
+                    check=False,
+                )
+        result = gh_cli(upload, check=False)
+        detail = (result.stderr or result.stdout).strip()
+
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"gh release upload failed for {asset_name} "
+            f"(exit {result.returncode}):\n{detail[:3000]}"
+        )
     log(f"    uploaded {asset_name}")
 
 
