@@ -1,0 +1,179 @@
+# Apps mirrored by this repository.
+#
+# Each entry is pulled from its official upstream release source. No APK is
+# rebuilt or re-signed: the bytes published here are the upstream bytes.
+#
+# source: github | forgejo | direct
+#   github   -> repo: "owner/name", asset: regex for the release asset
+#   forgejo  -> base_url + repo: "owner/name", asset: regex
+#   direct   -> url: direct APK URL (checked with ETag/Last-Modified)
+#
+# asset is a regular expression matched against the release asset filename.
+# fallback_releases controls how many older releases to scan when the newest
+# release does not contain a matching asset (default 10).
+# package overrides the expected Android package name (defaults to id).
+# archive/inner_asset support releases that ship APKs inside a zip.
+
+defaults:
+  fallback_releases: 10
+  include_prereleases: false
+
+apps:
+  - id: dev.imranr.obtainium
+    name: Obtainium
+    author: ImranR98
+    source: github
+    repo: ImranR98/Obtainium
+    asset: '^app-arm64-v8a-release\.apk$'
+    homepage: https://github.com/ImranR98/Obtainium
+
+  - id: com.akylas.documentscanner
+    name: OSS Document Scanner
+    author: ossappscollective
+    source: github
+    repo: ossappscollective/OSS-DocumentScanner
+    asset: '^app-arm64-v8a-release\.apk$'
+    homepage: https://github.com/ossappscollective/OSS-DocumentScanner
+
+  - id: app.hiddify.com
+    name: Hiddify
+    author: hiddify
+    source: github
+    repo: hiddify/hiddify-app
+    asset: '^Hiddify-Android-arm64\.apk$'
+    homepage: https://github.com/hiddify/hiddify-app
+
+  - id: helium314.keyboard
+    name: HeliBoard
+    author: HeliBorg
+    source: github
+    repo: HeliBorg/HeliBoard
+    asset: '^HeliBoard_.*-release\.apk$'
+    homepage: https://github.com/HeliBorg/HeliBoard
+
+  - id: com.kunzisoft.keepass.libre
+    name: KeePassDX
+    author: Kunzisoft
+    source: github
+    repo: Kunzisoft/KeePassDX
+    asset: '^KeePassDX-.*-libre\.apk$'
+    homepage: https://github.com/Kunzisoft/KeePassDX
+
+  - id: com.openappslabs.coffee
+    name: Coffee
+    author: OpenAppsLabs
+    source: github
+    repo: OpenAppsLabs/Coffee
+    asset: '^app-release\.apk$'
+    homepage: https://github.com/OpenAppsLabs/Coffee
+
+  - id: dev.chungjungsoo.gptmobile
+    name: GPTMobile
+    author: Taewan-P
+    source: github
+    repo: Taewan-P/gpt_mobile
+    asset: '^GPTMobile-.*\.apk$'
+    homepage: https://github.com/Taewan-P/gpt_mobile
+
+  - id: org.schabi.newpipe
+    name: NewPipe
+    author: TeamNewPipe
+    source: github
+    repo: TeamNewPipe/NewPipe
+    asset: '^NewPipe_.*\.apk$'
+    homepage: https://github.com/TeamNewPipe/NewPipe
+
+  - id: com.foobnix.pro.pdf.reader
+    name: Librera FD
+    author: foobnix
+    source: github
+    repo: foobnix/LibreraReader
+    asset: '^Librera\.Fdroid-.*-mupdf-uni\.apk$'
+    homepage: https://github.com/foobnix/LibreraReader
+
+  - id: com.chiller3.rsaf
+    name: RSAF
+    author: chenxiaolong
+    source: github
+    repo: chenxiaolong/RSAF
+    asset: '^RSAF-.*-arm64-v8a-release\.apk$'
+    homepage: https://github.com/chenxiaolong/RSAF
+
+  - id: de.seemoo.at_tracking_detection.release
+    name: AirGuard
+    author: seemoo-lab
+    source: github
+    repo: seemoo-lab/AirGuard
+    asset: '^AirGuard\..*\.Github\.apk$'
+    homepage: https://github.com/seemoo-lab/AirGuard
+
+  - id: me.proton.android.drive
+    name: Proton Drive
+    author: ProtonDriveApps
+    source: github
+    repo: ProtonDriveApps/android-drive
+    asset: '^ProtonDrive-.*\.apk$'
+    homepage: https://github.com/ProtonDriveApps/android-drive
+
+  - id: ch.protonmail.android
+    name: Proton Mail
+    author: ProtonMail
+    source: github
+    repo: ProtonMail/android-mail
+    asset: '^ProtonMail-.*\.apk$'
+    homepage: https://github.com/ProtonMail/android-mail
+
+  - id: com.ai.venice
+    name: Venice AI
+    author: venice.ai
+    source: github
+    repo: veniceai/venice-android
+    asset: '^venice\.apk$'
+    homepage: https://venice.ai/lp/download
+    proprietary: true
+
+  - id: nodomain.freeyourgadget.gadgetbridge
+    name: Gadgetbridge
+    author: Freeyourgadget
+    source: forgejo
+    base_url: https://codeberg.org
+    repo: Freeyourgadget/Gadgetbridge
+    asset: '^gadgetbridge-.*\.apk$'
+    homepage: https://codeberg.org/Freeyourgadget/Gadgetbridge
+
+  - id: com.whatsapp
+    name: WhatsApp
+    author: WhatsApp
+    source: direct
+    url: https://www.whatsapp.com/android/current/WhatsApp.apk
+    headers:
+      User-Agent: Mozilla/5.0
+    homepage: https://www.whatsapp.com/android/
+    proprietary: true
+
+  - id: ch.protonvpn.android.reproducible
+    name: Proton VPN
+    author: ProtonVPN
+    source: github
+    repo: ProtonVPN/android-app
+    asset: '^ProtonVPN-.*openSource-release-fdroid\.apk$'
+    package: ch.protonvpn.android.reproducible
+    homepage: https://github.com/ProtonVPN/android-app
+
+  - id: io.simplelogin.android.fdroid
+    name: SimpleLogin
+    author: simple-login
+    source: github
+    repo: simple-login/Simple-Login-Android
+    asset: '^simplelogin-fdroid-.*\.apk$'
+    homepage: https://github.com/simple-login/Simple-Login-Android
+
+  - id: io.chameleon.ultra
+    name: CU GUI
+    author: GameTec-live
+    source: github
+    repo: GameTec-live/ChameleonUltraGUI
+    asset: '^apk\.zip$'
+    archive: '^apk\.zip$'
+    inner_asset: '\.apk$'
+    homepage: https://github.com/GameTec-live/ChameleonUltraGUI
