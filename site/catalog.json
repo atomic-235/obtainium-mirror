@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:23:58Z",
+  "generated_at": "2026-11-08T16:29:46Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -663,40 +663,84 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.simplelogin.android.fdroid/"
     },
     {
-      "name": "CU GUI",
-      "author": "GameTec-live",
-      "package": "io.chameleon.ultra",
-      "version_name": "1.4.0",
-      "version_code": 2457,
-      "sha256": "0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1",
-      "size": 102616363,
       "asset_name": "CU-GUI-1.4.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/CU-GUI-1.4.0.apk",
+      "author": "GameTec-live",
+      "homepage": "https://github.com/GameTec-live/ChameleonUltraGUI",
+      "mirrored_at": "2026-11-08T16:23:58Z",
+      "name": "CU GUI",
+      "package": "io.chameleon.ultra",
+      "proprietary": false,
+      "published_at": "2026-11-06T23:53:01Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:23:50Z",
+        "virustotal": {
+          "permalink": "https://www.virustotal.com/gui/file/0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1",
+          "status": "not_found"
+        }
+      },
+      "sha256": "0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1",
+      "size": 102616363,
+      "upstream_asset": "apk.zip",
       "upstream_ref": "github:437190628:719016067:f52c909026327f9a6c6628d7ce925ec9b84e75370caaa33ec77f0e55b5718c4c",
       "upstream_tag": "1.4",
       "upstream_url": "https://github.com/GameTec-live/ChameleonUltraGUI/releases/tag/1.4",
-      "upstream_asset": "apk.zip",
-      "published_at": "2026-11-06T23:53:01Z",
-      "mirrored_at": "2026-11-08T16:23:58Z",
-      "proprietary": false,
-      "homepage": "https://github.com/GameTec-live/ChameleonUltraGUI",
-      "security_scan": {
-        "scanned_at": "2026-11-08T16:23:50Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1"
-        }
-      },
+      "version_code": 2457,
+      "version_name": "1.4.0",
       "cert_sha256": [
         "8c6a33f5276a34b2afb71552cde233ed417361371448e7b44ba851d1030da038"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
+    },
+    {
+      "name": "Telegram",
+      "author": "Telegram",
+      "package": "org.telegram.messenger.web",
+      "version_name": "13.2.0",
+      "version_code": 72809,
+      "sha256": "2d1fe6650578aa4e3437c9e775a7e849837f604a7294c6bd66f971d6ba13470e",
+      "size": 79364058,
+      "asset_name": "Telegram-13.2.0.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.0.apk",
+      "upstream_ref": "direct:\"347dc3bc41395c184e7b91c5c85dd9fd37051d32\"||79364058",
+      "upstream_tag": null,
+      "upstream_url": "https://telegram.org/dl/android/apk",
+      "upstream_asset": "apk",
+      "published_at": null,
+      "mirrored_at": "2026-11-08T16:29:46Z",
+      "proprietary": true,
+      "homepage": "https://telegram.org/android",
+      "security_scan": {
+        "scanned_at": "2026-11-08T16:29:42Z",
+        "apksigner": {
+          "status": "verified",
+          "schemes": [
+            "Verified using v1 scheme (JAR signing): true",
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ]
+        },
+        "virustotal": {
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 66,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794111753,
+          "permalink": "https://www.virustotal.com/gui/file/2d1fe6650578aa4e3437c9e775a7e849837f604a7294c6bd66f971d6ba13470e",
+          "checked_at": "2026-11-08T16:29:42Z"
+        }
+      },
+      "cert_sha256": [
+        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.telegram.messenger.web/"
     }
   ]
 }

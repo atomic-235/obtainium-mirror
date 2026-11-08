@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-08T16:23:58Z",
+  "exportedAt": "2026-11-08T16:29:46Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -450,6 +450,29 @@
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
       "apkSizeBytes": 102616363
+    },
+    {
+      "id": "org.telegram.messenger.web",
+      "url": "https://atomic-235.github.io/obtainium-mirror/apps/org.telegram.messenger.web/",
+      "author": "Telegram",
+      "name": "Telegram",
+      "installedVersion": null,
+      "latestVersion": "13.2.0",
+      "apkUrls": "[[\"Telegram-13.2.0.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.0.apk\"]]",
+      "otherAssetUrls": "[]",
+      "preferredApkIndex": 0,
+      "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
+      "lastUpdateCheck": null,
+      "pinned": false,
+      "disabled": false,
+      "categories": [],
+      "releaseDate": null,
+      "changeLog": null,
+      "releaseUrl": "https://telegram.org/dl/android/apk",
+      "overrideSource": "HTML",
+      "allowIdChange": false,
+      "pendingRepoRenameUrl": null,
+      "apkSizeBytes": 79364058
     }
   ]
 }
