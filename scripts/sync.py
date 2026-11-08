@@ -305,7 +305,7 @@ def resolve_direct(app: dict[str, Any], defaults: dict[str, Any]) -> ResolvedAss
         size=length,
         published_at=last_modified,
         force_check=no_validators,
-        release_url=final_url,
+        release_url=url,
     )
 
 

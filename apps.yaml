@@ -177,3 +177,13 @@ apps:
     archive: '^apk\.zip$'
     inner_asset: '\.apk$'
     homepage: https://github.com/GameTec-live/ChameleonUltraGUI
+
+  - id: org.telegram.messenger.web
+    name: Telegram
+    author: Telegram
+    source: direct
+    url: https://telegram.org/dl/android/apk
+    headers:
+      User-Agent: Mozilla/5.0
+    homepage: https://telegram.org/android
+    proprietary: true
