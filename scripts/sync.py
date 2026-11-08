@@ -594,21 +594,25 @@ def sync_app(
         workdir = Path(temp)
         downloaded = workdir / resolved.asset_name
         download_file(resolved.download_url, downloaded, app.get("headers"))
-        digest = sha256_file(downloaded)
+        downloaded_digest = sha256_file(downloaded)
         if resolved.size is not None and downloaded.stat().st_size != resolved.size:
             raise RuntimeError(
                 f"Size mismatch for {resolved.asset_name}: "
                 f"{downloaded.stat().st_size} != {resolved.size}"
             )
-        if resolved.digest_sha256 and digest != resolved.digest_sha256:
+        if resolved.digest_sha256 and downloaded_digest != resolved.digest_sha256:
             raise RuntimeError(
                 f"SHA-256 mismatch for {resolved.asset_name}: "
-                f"upstream advertised {resolved.digest_sha256}, got {digest}"
+                f"upstream advertised {resolved.digest_sha256}, got {downloaded_digest}"
             )
 
         apk_path = downloaded
         if app.get("archive"):
             apk_path = extract_inner_apk(downloaded, app.get("inner_asset", r"\.apk$"), workdir)
+
+        # The published artifact is the APK, not the archive it may have come
+        # from, so state.json must hash the final APK.
+        digest = sha256_file(apk_path)
 
         info = parse_apk(apk_path)
         expected_package = app.get("package", package)
