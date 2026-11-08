@@ -38,6 +38,11 @@ import requests
 import yaml
 from loguru import logger as _loguru
 
+try:
+    from apk_scan import scan_apk
+except ImportError:  # when imported as scripts.sync
+    from .apk_scan import scan_apk
+
 # Silence androguard's very verbose loguru output. We use print() for our own
 # progress messages, so removing the sink is safe.
 _loguru.remove()
@@ -88,13 +93,16 @@ def human_size(size: int | None) -> str:
     return f"{value:.1f} GiB"
 
 
-def safe_version_for_filename(version: str) -> str:
-    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "_", version).strip("._-")
-    return cleaned or "unknown"
+def safe_component(value: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "-", value).strip("-._")
+    cleaned = re.sub(r"-{2,}", "-", cleaned)
+    return cleaned
 
 
-def make_asset_name(package: str, version_code: int, version_name: str) -> str:
-    return f"{package}__{version_code}__{safe_version_for_filename(version_name)}.apk"
+def make_asset_name(app_name: str, package: str, version_code: int, version_name: str) -> str:
+    name = safe_component(app_name) or safe_component(package) or "app"
+    version = safe_component(version_name) or str(version_code)
+    return f"{name[:80].rstrip('-._')}-{version[:80]}.apk"
 
 
 def html_escape(value: Any) -> str:
@@ -448,14 +456,25 @@ def ensure_release() -> None:
 
 def upload_asset(path: Path, asset_name: str) -> None:
     ensure_release()
-    gh_cli(["release", "upload", RELEASE_TAG, f"{path}#{asset_name}", "--clobber"])
+    upload_path = path
+    if path.name != asset_name:
+        # gh's "file#label" syntax only sets a display label; the asset name
+        # comes from the file on disk. Copy to the real target filename.
+        upload_path = path.with_name(asset_name)
+        if upload_path.exists():
+            upload_path.unlink()
+        shutil.copyfile(path, upload_path)
+    gh_cli(["release", "upload", RELEASE_TAG, str(upload_path), "--clobber"])
     log(f"    uploaded {asset_name}")
 
 
-def delete_old_assets(package: str, keep: str) -> None:
+def delete_old_assets(package: str, keep: str, also: set[str] | None = None) -> None:
+    also = also or set()
     assets = get_release_assets()
     for name, asset_id in assets.items():
-        if name.startswith(f"{package}__") and name != keep:
+        if name == keep:
+            continue
+        if name.startswith(f"{package}__") or name in also:
             log(f"    deleting old asset {name}")
             gh_cli(
                 ["api", "-X", "DELETE", f"repos/{REPO}/releases/assets/{asset_id}"],
@@ -479,6 +498,7 @@ def load_apps() -> tuple[dict[str, Any], list[dict[str, Any]]]:
     defaults = data.get("defaults") or {}
     apps = data.get("apps") or []
     seen: set[str] = set()
+    seen_names: set[str] = set()
     for app in apps:
         package = app.get("id")
         if not package:
@@ -488,6 +508,11 @@ def load_apps() -> tuple[dict[str, Any], list[dict[str, Any]]]:
         seen.add(package)
         if not app.get("name"):
             app["name"] = package
+        if app["name"] in seen_names:
+            raise RuntimeError(
+                f"Duplicate app name {app['name']!r}; asset filenames would collide"
+            )
+        seen_names.add(app["name"])
         if not app.get("author"):
             app["author"] = ""
     return defaults, apps
@@ -580,7 +605,9 @@ def sync_app(
                     f"the cert_sha256 from state.json for {package}."
                 )
 
-        asset_name = make_asset_name(package, info.version_code, info.version_name)
+        asset_name = make_asset_name(
+            app["name"], package, info.version_code, info.version_name
+        )
         same_apk = (
             previous is not None
             and previous.get("sha256") == digest
@@ -589,10 +616,15 @@ def sync_app(
 
         if same_apk:
             log(f"[{package}] bytes unchanged, refreshing upstream reference only")
+            security_scan = previous.get("security_scan") or scan_apk(str(apk_path), digest)
         else:
+            security_scan = scan_apk(str(apk_path), digest)
             if not dry_run:
                 upload_asset(apk_path, asset_name)
-                delete_old_assets(package, asset_name)
+                old_names = {resolved.asset_name}
+                if previous and previous.get("asset_name"):
+                    old_names.add(previous["asset_name"])
+                delete_old_assets(package, asset_name, old_names)
             else:
                 log(f"[{package}] dry run: would upload {asset_name}")
 
@@ -615,6 +647,7 @@ def sync_app(
             "mirrored_at": previous.get("mirrored_at") if same_apk and previous else now_iso(),
             "proprietary": bool(app.get("proprietary", False)),
             "homepage": app.get("homepage", ""),
+            "security_scan": security_scan,
         }
     return "updated" if not same_apk else "refreshed"
 
@@ -846,10 +879,26 @@ def write_site(
         if not entry:
             continue
         config = config_by_id.get(package)
+        scan = entry.get("security_scan") or {}
+        vt = scan.get("virustotal") or {}
+        if vt.get("status") == "found":
+            vt_html = (
+                f'<a href="{html_escape(vt.get("permalink") or "#")}">'
+                f'{html_escape(vt.get("malicious", 0))} malicious / '
+                f'{html_escape(vt.get("suspicious", 0))} suspicious</a>'
+            )
+        elif vt.get("status") == "not_found":
+            vt_html = "no report yet"
+        elif vt.get("status") == "skipped":
+            vt_html = "not configured"
+        else:
+            vt_html = html_escape(vt.get("status", "unknown"))
+        signature = html_escape((scan.get("apksigner") or {}).get("status", "not scanned"))
         body = f"""<p class="muted"><a href="../../">← all apps</a></p>
 <h1>{html_escape(app['name'])}</h1>
 <p>Version: <span id="version">{html_escape(entry['version_name'])}</span></p>
 <p class="muted">{html_escape(entry['package'])} · {html_escape(human_size(entry.get('size')))}</p>
+<p class="muted">Signature: {signature} · VirusTotal: {vt_html}</p>
 <div class="actions">
   <a class="button primary" href="{html_escape(entry['asset_url'])}">Download APK</a>
   <a class="button" href="{html_escape(app_deep_link(config))}">Add to Obtainium</a>

@@ -22,7 +22,9 @@ A GitHub Actions workflow runs every six hours (and on demand):
    - the upstream SHA-256 digest, when the forge publishes one;
    - the Android package name;
    - the `versionCode` is not a downgrade;
-   - the APK signing certificate matches the previously mirrored build.
+   - the APK signing certificate matches the previously mirrored build;
+   - `apksigner` accepts the APK signature;
+   - VirusTotal does not flag the APK (optional, hash lookup only).
 4. Uploads the APK to the [`apk-mirror`](../../releases/tag/apk-mirror) release
    as `<package>__<versionCode>__<versionName>.apk`.
 5. Regenerates `state.json`, the Pages catalog, and `obtainium_export.json`.
@@ -64,6 +66,15 @@ If you later want a real F-Droid repo, host the APKs on object storage
   rejected.
 - **Package check.** The APK must declare the expected package id (useful for
   repos that publish several flavours in one release).
+- **Final APK scan.** Every new APK is verified with `apksigner` and looked up
+  on VirusTotal by SHA-256. The APK is never uploaded to VirusTotal; only the
+  existing report is checked. Set a repository secret `VT_API_KEY` to enable
+  this. The thresholds are `VT_MAX_MALICIOUS` (default 0) and
+  `VT_MAX_SUSPICIOUS` (default 2). Add the key under
+  Settings → Secrets and variables → Actions → `VT_API_KEY`.
+- **Weekly integrity audit.** `.github/workflows/apk-security.yml` checks every
+  published release asset's GitHub digest and size against `state.json`, then
+  re-checks the VirusTotal reports. It does not download the APKs.
 - **Only official sources.** `apps.yaml` points at upstream GitHub/Codeberg
   repositories or the vendor's official download URL.
 

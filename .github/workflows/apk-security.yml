@@ -1,0 +1,37 @@
+name: APK security scan
+
+on:
+  schedule:
+    # Weekly, Monday morning.
+    - cron: "37 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: apk-security-scan
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Verify published APKs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install requests
+
+      - name: Verify release integrity and VirusTotal reports
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          VT_API_KEY: ${{ secrets.VT_API_KEY }}
+        run: python scripts/scan_release.py

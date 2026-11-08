@@ -51,6 +51,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Android signature verifier
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apksigner
+
       - name: Sync upstream APKs
         id: sync
         env:
@@ -58,6 +63,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           MIRROR_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
           ONLY_APP: ${{ inputs.app }}
+          VT_API_KEY: ${{ secrets.VT_API_KEY }}
         run: |
           if [ -n "$ONLY_APP" ]; then
             python scripts/sync.py --only "$ONLY_APP"
