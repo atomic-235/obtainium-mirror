@@ -2,3 +2,4 @@ __pycache__/
 *.py[cod]
 .venv/
 .sync-tmp/
+/.playwright-mcp/output
