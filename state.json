@@ -498,6 +498,41 @@
       "version_code": 4201,
       "version_name": "4.2"
     },
+    "io.chameleon.ultra": {
+      "asset_name": "CU-GUI-1.4.0.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/CU-GUI-1.4.0.apk",
+      "author": "GameTec-live",
+      "cert_sha256": [
+        "8c6a33f5276a34b2afb71552cde233ed417361371448e7b44ba851d1030da038"
+      ],
+      "homepage": "https://github.com/GameTec-live/ChameleonUltraGUI",
+      "mirrored_at": "2026-11-08T16:23:58Z",
+      "name": "CU GUI",
+      "package": "io.chameleon.ultra",
+      "proprietary": false,
+      "published_at": "2026-11-06T23:53:01Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-08T16:23:50Z",
+        "virustotal": {
+          "permalink": "https://www.virustotal.com/gui/file/0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1",
+          "status": "not_found"
+        }
+      },
+      "sha256": "0d885714b3f20bf2df915428114c1de27e172a4ed0c472feed9d5ddc6eddf3e1",
+      "size": 102616363,
+      "upstream_asset": "apk.zip",
+      "upstream_ref": "github:437190628:719016067:f52c909026327f9a6c6628d7ce925ec9b84e75370caaa33ec77f0e55b5718c4c",
+      "upstream_tag": "1.4",
+      "upstream_url": "https://github.com/GameTec-live/ChameleonUltraGUI/releases/tag/1.4",
+      "version_code": 2457,
+      "version_name": "1.4.0"
+    },
     "io.simplelogin.android.fdroid": {
       "asset_name": "SimpleLogin-1.22.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/SimpleLogin-1.22.0.apk",
