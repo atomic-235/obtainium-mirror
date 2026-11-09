@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:55:23Z",
+  "generated_at": "2026-11-09T22:33:23Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -295,36 +295,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "asset_name": "Librera-FD-10.0.27-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.27-fdroid.apk",
-      "author": "foobnix",
-      "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-08T16:13:03Z",
       "name": "Librera FD",
+      "author": "foobnix",
       "package": "com.foobnix.pro.pdf.reader",
+      "version_name": "10.0.31-fdroid",
+      "version_code": 7571,
+      "sha256": "9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
+      "size": 129373938,
+      "asset_name": "Librera-FD-10.0.31-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.31-fdroid.apk",
+      "upstream_ref": "github:439110434:727419242:9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
+      "upstream_tag": "10.0.31",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.31",
+      "upstream_asset": "Librera.Fdroid-10.0.31-mupdf-uni.apk",
+      "published_at": "2026-11-09T12:32:37Z",
+      "mirrored_at": "2026-11-09T22:33:03Z",
       "proprietary": false,
-      "published_at": "2026-11-05T11:54:03Z",
+      "homepage": "https://github.com/foobnix/LibreraReader",
       "security_scan": {
+        "scanned_at": "2026-11-09T22:32:57Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:12:57Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 64,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794244457,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
+          "checked_at": "2026-11-09T22:32:57Z"
         }
       },
-      "sha256": "9fa1e6b047376185b5e2bbe51bfaa358bf3746fcf6cf85732ee0cca2fba6ae27",
-      "size": 124714293,
-      "upstream_asset": "Librera.Fdroid-10.0.27-mupdf-uni.apk",
-      "upstream_ref": "github:435140059:713239485:9fa1e6b047376185b5e2bbe51bfaa358bf3746fcf6cf85732ee0cca2fba6ae27",
-      "upstream_tag": "10.0.27",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.27",
-      "version_code": 7555,
-      "version_name": "10.0.27-fdroid",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
@@ -549,39 +557,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "asset_name": "WhatsApp-2.26.44.71.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.44.71.apk",
-      "author": "WhatsApp",
-      "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-08T16:13:55Z",
       "name": "WhatsApp",
+      "author": "WhatsApp",
       "package": "com.whatsapp",
+      "version_name": "2.26.44.76",
+      "version_code": 264407638,
+      "sha256": "c386852c686c0afae2e200234b932cb2a35f8dda1f0be5fdeafb624cda5ab03a",
+      "size": 156086872,
+      "asset_name": "WhatsApp-2.26.44.76.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.44.76.apk",
+      "upstream_ref": "direct:|Mon, 09 Nov 2026 15:16:24 GMT|156086872",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "upstream_asset": "WhatsApp.apk",
+      "published_at": "Mon, 09 Nov 2026 15:16:24 GMT",
+      "mirrored_at": "2026-11-09T22:33:21Z",
       "proprietary": true,
-      "published_at": "Fri, 06 Nov 2026 07:33:00 GMT",
+      "homepage": "https://www.whatsapp.com/android/",
       "security_scan": {
+        "scanned_at": "2026-11-09T22:33:14Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:13:49Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 53,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794241079,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/c386852c686c0afae2e200234b932cb2a35f8dda1f0be5fdeafb624cda5ab03a",
+          "checked_at": "2026-11-09T22:33:14Z"
         }
       },
-      "sha256": "fdc09052adb72e97f42661dddd28d06ea19c3ca2a83b2967064a2169d4afef28",
-      "size": 155824557,
-      "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Fri, 06 Nov 2026 07:33:00 GMT|155824557",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264407138,
-      "version_name": "2.26.44.71",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
@@ -699,45 +715,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "name": "Telegram",
-      "author": "Telegram",
-      "package": "org.telegram.messenger.web",
-      "version_name": "13.2.1",
-      "version_code": 72919,
-      "sha256": "2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
-      "size": 79564232,
       "asset_name": "Telegram-13.2.1.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.1.apk",
-      "upstream_ref": "direct:\"c2ed8686c820d8e7cd45d830b00513b338cec802\"||79564232",
-      "upstream_tag": null,
-      "upstream_url": "https://telegram.org/dl/android/apk",
-      "upstream_asset": "apk",
-      "published_at": null,
-      "mirrored_at": "2026-11-09T06:55:23Z",
-      "proprietary": true,
+      "author": "Telegram",
       "homepage": "https://telegram.org/android",
+      "mirrored_at": "2026-11-09T06:55:23Z",
+      "name": "Telegram",
+      "package": "org.telegram.messenger.web",
+      "proprietary": true,
+      "published_at": null,
       "security_scan": {
-        "scanned_at": "2026-11-09T06:55:18Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-09T06:55:18Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 67,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794175651,
+          "checked_at": "2026-11-09T06:55:18Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794175651,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
-          "checked_at": "2026-11-09T06:55:18Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 67
         }
       },
+      "sha256": "2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
+      "size": 79564232,
+      "upstream_asset": "apk",
+      "upstream_ref": "direct:\"c2ed8686c820d8e7cd45d830b00513b338cec802\"||79564232",
+      "upstream_tag": null,
+      "upstream_url": "https://telegram.org/dl/android/apk",
+      "version_code": 72919,
+      "version_name": "13.2.1",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
