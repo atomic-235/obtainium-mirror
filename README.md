@@ -102,7 +102,7 @@ If you later want a real F-Droid repo, host the APKs on object storage
 | [Proton VPN](https://atomic-235.github.io/obtainium-mirror/apps/ch.protonvpn.android.reproducible/) | 5.20.98.0 | [Proton-VPN-5.20.98.0.apk](https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.20.98.0.apk) | [upstream](https://github.com/ProtonVPN/android-app/releases/tag/5.20.98.0) | 2026-11-08T16:13:59Z |
 | [SimpleLogin](https://atomic-235.github.io/obtainium-mirror/apps/io.simplelogin.android.fdroid/) | 1.22.0 | [SimpleLogin-1.22.0.apk](https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/SimpleLogin-1.22.0.apk) | [upstream](https://github.com/simple-login/Simple-Login-Android/releases/tag/1.22.0) | 2026-11-08T16:14:02Z |
 | [CU GUI](https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/) | 1.4.0 | [CU-GUI-1.4.0.apk](https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/CU-GUI-1.4.0.apk) | [upstream](https://github.com/GameTec-live/ChameleonUltraGUI/releases/tag/1.4) | 2026-11-08T16:23:58Z |
-| [Telegram](https://atomic-235.github.io/obtainium-mirror/apps/org.telegram.messenger.web/) | 13.2.0 | [Telegram-13.2.0.apk](https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.0.apk) | [upstream](https://telegram.org/dl/android/apk) | 2026-11-08T16:29:46Z |
+| [Telegram](https://atomic-235.github.io/obtainium-mirror/apps/org.telegram.messenger.web/) | 13.2.1 | [Telegram-13.2.1.apk](https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.1.apk) | [upstream](https://telegram.org/dl/android/apk) | 2026-11-09T06:55:23Z |
 <!-- APPS:END -->
 
 ## Adding an app
