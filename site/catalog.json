@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:31:41Z",
+  "generated_at": "2026-11-10T19:53:29Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -257,38 +257,46 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.chungjungsoo.gptmobile/"
     },
     {
-      "asset_name": "NewPipe-0.29.2.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.2.apk",
-      "author": "TeamNewPipe",
-      "homepage": "https://github.com/TeamNewPipe/NewPipe",
-      "mirrored_at": "2026-11-08T16:12:55Z",
       "name": "NewPipe",
+      "author": "TeamNewPipe",
       "package": "org.schabi.newpipe",
+      "version_name": "0.29.3",
+      "version_code": 1017,
+      "sha256": "0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+      "size": 16980865,
+      "asset_name": "NewPipe-0.29.3.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.3.apk",
+      "upstream_ref": "github:440032937:730910872:0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+      "upstream_tag": "v0.29.3",
+      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.3",
+      "upstream_asset": "NewPipe_v0.29.3.apk",
+      "published_at": "2026-11-10T09:52:10Z",
+      "mirrored_at": "2026-11-10T19:53:24Z",
       "proprietary": false,
-      "published_at": "2026-11-07T21:14:05Z",
+      "homepage": "https://github.com/TeamNewPipe/NewPipe",
       "security_scan": {
+        "scanned_at": "2026-11-10T19:53:22Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:12:53Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 68,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794338360,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+          "checked_at": "2026-11-10T19:53:22Z"
         }
       },
-      "sha256": "318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
-      "size": 16980865,
-      "upstream_asset": "NewPipe_v0.29.2.apk",
-      "upstream_ref": "github:359715260:721863393:318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
-      "upstream_tag": "v0.29.2",
-      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.2",
-      "version_code": 1016,
-      "version_name": "0.29.2",
       "cert_sha256": [
         "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
       ],

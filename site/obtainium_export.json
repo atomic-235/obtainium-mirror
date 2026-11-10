@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-10T07:31:41Z",
+  "exportedAt": "2026-11-10T19:53:29Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -181,8 +181,8 @@
       "author": "TeamNewPipe",
       "name": "NewPipe",
       "installedVersion": null,
-      "latestVersion": "0.29.2",
-      "apkUrls": "[[\"NewPipe-0.29.2.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.2.apk\"]]",
+      "latestVersion": "0.29.3",
+      "apkUrls": "[[\"NewPipe-0.29.3.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.3.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -192,7 +192,7 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.2",
+      "releaseUrl": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.3",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,

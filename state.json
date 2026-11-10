@@ -658,18 +658,18 @@
       "version_name": "2026.11.1"
     },
     "org.schabi.newpipe": {
-      "asset_name": "NewPipe-0.29.2.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.2.apk",
+      "asset_name": "NewPipe-0.29.3.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.3.apk",
       "author": "TeamNewPipe",
       "cert_sha256": [
         "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
       ],
       "homepage": "https://github.com/TeamNewPipe/NewPipe",
-      "mirrored_at": "2026-11-08T16:12:55Z",
+      "mirrored_at": "2026-11-10T19:53:24Z",
       "name": "NewPipe",
       "package": "org.schabi.newpipe",
       "proprietary": false,
-      "published_at": "2026-11-07T21:14:05Z",
+      "published_at": "2026-11-10T09:52:10Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -679,20 +679,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:12:53Z",
+        "scanned_at": "2026-11-10T19:53:22Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-10T19:53:22Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794338360,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 68
         }
       },
-      "sha256": "318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
+      "sha256": "0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
       "size": 16980865,
-      "upstream_asset": "NewPipe_v0.29.2.apk",
-      "upstream_ref": "github:359715260:721863393:318bd6a51f216027ba340f2934e59fa9c0d078d0f2f526a4af84354aee60651f",
-      "upstream_tag": "v0.29.2",
-      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.2",
-      "version_code": 1016,
-      "version_name": "0.29.2"
+      "upstream_asset": "NewPipe_v0.29.3.apk",
+      "upstream_ref": "github:440032937:730910872:0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+      "upstream_tag": "v0.29.3",
+      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.3",
+      "version_code": 1017,
+      "version_name": "0.29.3"
     },
     "org.telegram.messenger.web": {
       "asset_name": "Telegram-13.2.1.apk",
