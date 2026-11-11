@@ -703,14 +703,14 @@
       "version_name": "0.29.3"
     },
     "org.telegram.messenger.web": {
-      "asset_name": "Telegram-13.2.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.1.apk",
+      "asset_name": "Telegram-13.2.2.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.2.apk",
       "author": "Telegram",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
       "homepage": "https://telegram.org/android",
-      "mirrored_at": "2026-11-09T06:55:23Z",
+      "mirrored_at": "2026-11-11T06:49:52Z",
       "name": "Telegram",
       "package": "org.telegram.messenger.web",
       "proprietary": true,
@@ -723,28 +723,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-09T06:55:18Z",
+        "scanned_at": "2026-11-11T06:49:47Z",
         "virustotal": {
-          "checked_at": "2026-11-09T06:55:18Z",
+          "checked_at": "2026-11-11T06:49:47Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1794175651,
+          "last_analysis_date": 1794348713,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
+          "permalink": "https://www.virustotal.com/gui/file/e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
           "undetected": 67
         }
       },
-      "sha256": "2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
-      "size": 79564232,
+      "sha256": "e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
+      "size": 80345318,
       "upstream_asset": "apk",
-      "upstream_ref": "direct:\"c2ed8686c820d8e7cd45d830b00513b338cec802\"||79564232",
+      "upstream_ref": "direct:\"7071a6fd30b1b98968274c76e6200170468266de\"||80345318",
       "upstream_tag": null,
       "upstream_url": "https://telegram.org/dl/android/apk",
-      "version_code": 72919,
-      "version_name": "13.2.1"
+      "version_code": 73039,
+      "version_name": "13.2.2"
     }
   },
   "schema": 1

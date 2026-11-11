@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:53:29Z",
+  "generated_at": "2026-11-11T06:49:52Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -257,46 +257,46 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.chungjungsoo.gptmobile/"
     },
     {
-      "name": "NewPipe",
-      "author": "TeamNewPipe",
-      "package": "org.schabi.newpipe",
-      "version_name": "0.29.3",
-      "version_code": 1017,
-      "sha256": "0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
-      "size": 16980865,
       "asset_name": "NewPipe-0.29.3.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/NewPipe-0.29.3.apk",
-      "upstream_ref": "github:440032937:730910872:0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
-      "upstream_tag": "v0.29.3",
-      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.3",
-      "upstream_asset": "NewPipe_v0.29.3.apk",
-      "published_at": "2026-11-10T09:52:10Z",
-      "mirrored_at": "2026-11-10T19:53:24Z",
-      "proprietary": false,
+      "author": "TeamNewPipe",
       "homepage": "https://github.com/TeamNewPipe/NewPipe",
+      "mirrored_at": "2026-11-10T19:53:24Z",
+      "name": "NewPipe",
+      "package": "org.schabi.newpipe",
+      "proprietary": false,
+      "published_at": "2026-11-10T09:52:10Z",
       "security_scan": {
-        "scanned_at": "2026-11-10T19:53:22Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-10T19:53:22Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 68,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794338360,
+          "checked_at": "2026-11-10T19:53:22Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794338360,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
-          "checked_at": "2026-11-10T19:53:22Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 68
         }
       },
+      "sha256": "0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+      "size": 16980865,
+      "upstream_asset": "NewPipe_v0.29.3.apk",
+      "upstream_ref": "github:440032937:730910872:0ab2b9b5103bd3173cb4540f9a2fe660d93a44ac17254e7d13b26d1d8f012192",
+      "upstream_tag": "v0.29.3",
+      "upstream_url": "https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.29.3",
+      "version_code": 1017,
+      "version_name": "0.29.3",
       "cert_sha256": [
         "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
       ],
@@ -723,45 +723,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "asset_name": "Telegram-13.2.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.1.apk",
-      "author": "Telegram",
-      "homepage": "https://telegram.org/android",
-      "mirrored_at": "2026-11-09T06:55:23Z",
       "name": "Telegram",
+      "author": "Telegram",
       "package": "org.telegram.messenger.web",
-      "proprietary": true,
+      "version_name": "13.2.2",
+      "version_code": 73039,
+      "sha256": "e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
+      "size": 80345318,
+      "asset_name": "Telegram-13.2.2.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.2.apk",
+      "upstream_ref": "direct:\"7071a6fd30b1b98968274c76e6200170468266de\"||80345318",
+      "upstream_tag": null,
+      "upstream_url": "https://telegram.org/dl/android/apk",
+      "upstream_asset": "apk",
       "published_at": null,
+      "mirrored_at": "2026-11-11T06:49:52Z",
+      "proprietary": true,
+      "homepage": "https://telegram.org/android",
       "security_scan": {
+        "scanned_at": "2026-11-11T06:49:47Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-09T06:55:18Z",
         "virustotal": {
-          "checked_at": "2026-11-09T06:55:18Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1794175651,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 67
+          "undetected": 67,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794348713,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
+          "checked_at": "2026-11-11T06:49:47Z"
         }
       },
-      "sha256": "2b73067f429a5cc20cf060e84c9296a18a04b77f1aa02739fa6457c6b5a508d2",
-      "size": 79564232,
-      "upstream_asset": "apk",
-      "upstream_ref": "direct:\"c2ed8686c820d8e7cd45d830b00513b338cec802\"||79564232",
-      "upstream_tag": null,
-      "upstream_url": "https://telegram.org/dl/android/apk",
-      "version_code": 72919,
-      "version_name": "13.2.1",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
