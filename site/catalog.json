@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:46:45Z",
+  "generated_at": "2026-11-11T19:45:17Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -723,44 +723,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "name": "Meshtastic",
-      "author": "meshtastic",
-      "package": "com.geeksville.mesh",
-      "version_name": "2.8.4 (29322943) fdroid",
-      "version_code": 29322943,
-      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-      "size": 48417736,
       "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.4-29322943-fdroid.apk",
+      "author": "meshtastic",
+      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
+      "mirrored_at": "2026-11-11T09:46:44Z",
+      "name": "Meshtastic",
+      "package": "com.geeksville.mesh",
+      "proprietary": false,
+      "published_at": "2026-11-04T23:39:43Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-11T09:46:42Z",
+        "virustotal": {
+          "checked_at": "2026-11-11T09:46:42Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1793932989,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 64
+        }
+      },
+      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+      "size": 48417736,
+      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
       "upstream_ref": "github:434532777:711186216:6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
       "upstream_tag": "v2.8.4",
       "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.4",
-      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
-      "published_at": "2026-11-04T23:39:43Z",
-      "mirrored_at": "2026-11-11T09:46:44Z",
-      "proprietary": false,
-      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
-      "security_scan": {
-        "scanned_at": "2026-11-11T09:46:42Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 64,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1793932989,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-          "checked_at": "2026-11-11T09:46:42Z"
-        }
-      },
+      "version_code": 29322943,
+      "version_name": "2.8.4 (29322943) fdroid",
       "cert_sha256": [
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],
