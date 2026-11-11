@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:49:52Z",
+  "generated_at": "2026-11-11T09:46:45Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -723,29 +723,28 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "name": "Telegram",
-      "author": "Telegram",
-      "package": "org.telegram.messenger.web",
-      "version_name": "13.2.2",
-      "version_code": 73039,
-      "sha256": "e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
-      "size": 80345318,
-      "asset_name": "Telegram-13.2.2.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.2.apk",
-      "upstream_ref": "direct:\"7071a6fd30b1b98968274c76e6200170468266de\"||80345318",
-      "upstream_tag": null,
-      "upstream_url": "https://telegram.org/dl/android/apk",
-      "upstream_asset": "apk",
-      "published_at": null,
-      "mirrored_at": "2026-11-11T06:49:52Z",
-      "proprietary": true,
-      "homepage": "https://telegram.org/android",
+      "name": "Meshtastic",
+      "author": "meshtastic",
+      "package": "com.geeksville.mesh",
+      "version_name": "2.8.4 (29322943) fdroid",
+      "version_code": 29322943,
+      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+      "size": 48417736,
+      "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.4-29322943-fdroid.apk",
+      "upstream_ref": "github:434532777:711186216:6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+      "upstream_tag": "v2.8.4",
+      "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.4",
+      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
+      "published_at": "2026-11-04T23:39:43Z",
+      "mirrored_at": "2026-11-11T09:46:44Z",
+      "proprietary": false,
+      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
       "security_scan": {
-        "scanned_at": "2026-11-11T06:49:47Z",
+        "scanned_at": "2026-11-11T09:46:42Z",
         "apksigner": {
           "status": "verified",
           "schemes": [
-            "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
           ]
         },
@@ -753,15 +752,60 @@
           "status": "found",
           "malicious": 0,
           "suspicious": 0,
-          "undetected": 67,
+          "undetected": 64,
           "harmless": 0,
           "reputation": 0,
-          "last_analysis_date": 1794348713,
+          "last_analysis_date": 1793932989,
           "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
-          "checked_at": "2026-11-11T06:49:47Z"
+          "permalink": "https://www.virustotal.com/gui/file/6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+          "checked_at": "2026-11-11T09:46:42Z"
         }
       },
+      "cert_sha256": [
+        "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.geeksville.mesh/"
+    },
+    {
+      "asset_name": "Telegram-13.2.2.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.2.2.apk",
+      "author": "Telegram",
+      "homepage": "https://telegram.org/android",
+      "mirrored_at": "2026-11-11T06:49:52Z",
+      "name": "Telegram",
+      "package": "org.telegram.messenger.web",
+      "proprietary": true,
+      "published_at": null,
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v1 scheme (JAR signing): true",
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-11T06:49:47Z",
+        "virustotal": {
+          "checked_at": "2026-11-11T06:49:47Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794348713,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 67
+        }
+      },
+      "sha256": "e0ddeb85227f2e482f674f8e6e8f062dfd870484ed6c98282dc5a49918160ac0",
+      "size": 80345318,
+      "upstream_asset": "apk",
+      "upstream_ref": "direct:\"7071a6fd30b1b98968274c76e6200170468266de\"||80345318",
+      "upstream_tag": null,
+      "upstream_url": "https://telegram.org/dl/android/apk",
+      "version_code": 73039,
+      "version_name": "13.2.2",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
