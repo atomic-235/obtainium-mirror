@@ -134,17 +134,29 @@ push the change. The first run downloads and mirrors the app.
 
 ## Local testing
 
+The Python environment is managed by **uv2nix** (`flake.nix`, `pyproject.toml`,
+`uv.lock`).
+
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+direnv allow
 
 # Resolve every upstream without downloading:
-.venv/bin/python scripts/sync.py --resolve-only
+python scripts/sync.py --resolve-only
 
 # Download and inspect one app, but don't upload:
-.venv/bin/python scripts/sync.py --only dev.imranr.obtainium --dry-run \
+python scripts/sync.py --only dev.imranr.obtainium --dry-run \
   --state /tmp/mirror-state.json --site-dir /tmp/mirror-site
 ```
+
+Without direnv:
+
+```bash
+nix develop --command python scripts/sync.py --resolve-only
+```
+
+To add a dependency, edit `[project.dependencies]` in `pyproject.toml`, run
+`UV_PYTHON="" UV_PYTHON_DOWNLOADS=never uv lock`, then `touch flake.nix && direnv reload`.
+Do not use pip or `uv sync` locally; the venv is built by Nix.
 
 ## Notes
 

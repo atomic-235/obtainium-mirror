@@ -16,7 +16,8 @@ on:
       - apps.yaml
       - scripts/**
       - .github/workflows/sync.yml
-      - requirements.txt
+      - pyproject.toml
+      - uv.lock
 
 permissions:
   contents: write
@@ -45,11 +46,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: requirements.txt
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: uv sync --frozen
 
       - name: Install Android signature verifier
         run: |
@@ -66,9 +70,9 @@ jobs:
           VT_API_KEY: ${{ secrets.VT_API_KEY }}
         run: |
           if [ -n "$ONLY_APP" ]; then
-            python scripts/sync.py --only "$ONLY_APP"
+            uv run python scripts/sync.py --only "$ONLY_APP"
           else
-            python scripts/sync.py
+            uv run python scripts/sync.py
           fi
 
       - name: Commit generated files

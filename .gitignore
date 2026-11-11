@@ -1,5 +1,8 @@
 __pycache__/
 *.py[cod]
 .venv/
+.direnv/
 .sync-tmp/
-/.playwright-mcp/output
+.playwright-mcp/
+result
+result-*

@@ -26,12 +26,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
       - name: Install dependencies
-        run: python -m pip install requests
+        run: uv sync --frozen
 
       - name: Verify release integrity and VirusTotal reports
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           VT_API_KEY: ${{ secrets.VT_API_KEY }}
-        run: python scripts/scan_release.py
+        run: uv run python scripts/scan_release.py
