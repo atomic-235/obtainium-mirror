@@ -178,6 +178,14 @@ apps:
     inner_asset: '\.apk$'
     homepage: https://github.com/GameTec-live/ChameleonUltraGUI
 
+  - id: com.geeksville.mesh
+    name: Meshtastic
+    author: meshtastic
+    source: github
+    repo: meshtastic/Meshtastic-Android
+    asset: '^androidApp-fdroid-arm64-v8a-release\.apk$'
+    homepage: https://github.com/meshtastic/Meshtastic-Android
+
   - id: org.telegram.messenger.web
     name: Telegram
     author: Telegram
