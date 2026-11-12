@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:27:16Z",
+  "generated_at": "2026-11-12T20:09:52Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -568,22 +568,22 @@
       "name": "WhatsApp",
       "author": "WhatsApp",
       "package": "com.whatsapp",
-      "version_name": "2.26.44.91",
-      "version_code": 264409149,
-      "sha256": "a5f4314eba856b583a963eeee4a88bcd75396d9d6007835c3d1ea4328c20617c",
-      "size": 156168792,
-      "asset_name": "WhatsApp-2.26.44.91.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.44.91.apk",
-      "upstream_ref": "direct:|Wed, 11 Nov 2026 21:54:46 GMT|156168792",
+      "version_name": "2.26.45.70",
+      "version_code": 264507049,
+      "sha256": "d06c94313ebbf34b6d925fa51be371442e4dae536b27f7e457511f3c32eea0b7",
+      "size": 158265297,
+      "asset_name": "WhatsApp-2.26.45.70.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.70.apk",
+      "upstream_ref": "direct:|Thu, 12 Nov 2026 09:01:04 GMT|158265297",
       "upstream_tag": null,
       "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
       "upstream_asset": "WhatsApp.apk",
-      "published_at": "Wed, 11 Nov 2026 21:54:46 GMT",
-      "mirrored_at": "2026-11-12T07:27:13Z",
+      "published_at": "Thu, 12 Nov 2026 09:01:04 GMT",
+      "mirrored_at": "2026-11-12T20:09:49Z",
       "proprietary": true,
       "homepage": "https://www.whatsapp.com/android/",
       "security_scan": {
-        "scanned_at": "2026-11-12T07:27:07Z",
+        "scanned_at": "2026-11-12T20:09:43Z",
         "apksigner": {
           "status": "verified",
           "schemes": [
@@ -597,13 +597,13 @@
           "status": "found",
           "malicious": 0,
           "suspicious": 0,
-          "undetected": 53,
+          "undetected": 52,
           "harmless": 0,
           "reputation": 0,
-          "last_analysis_date": 1794464720,
+          "last_analysis_date": 1794507500,
           "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/a5f4314eba856b583a963eeee4a88bcd75396d9d6007835c3d1ea4328c20617c",
-          "checked_at": "2026-11-12T07:27:07Z"
+          "permalink": "https://www.virustotal.com/gui/file/d06c94313ebbf34b6d925fa51be371442e4dae536b27f7e457511f3c32eea0b7",
+          "checked_at": "2026-11-12T20:09:43Z"
         }
       },
       "cert_sha256": [
