@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-12T20:09:52Z",
+  "exportedAt": "2026-11-13T06:58:30Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -365,8 +365,8 @@
       "author": "WhatsApp",
       "name": "WhatsApp",
       "installedVersion": null,
-      "latestVersion": "2.26.45.70",
-      "apkUrls": "[[\"WhatsApp-2.26.45.70.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.70.apk\"]]",
+      "latestVersion": "2.26.45.71",
+      "apkUrls": "[[\"WhatsApp-2.26.45.71.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.71.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -380,7 +380,7 @@
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 158265297
+      "apkSizeBytes": 158269678
     },
     {
       "id": "ch.protonvpn.android.reproducible",
