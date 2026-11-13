@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-13T06:58:30Z",
+  "exportedAt": "2026-11-13T19:53:52Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -204,8 +204,8 @@
       "author": "foobnix",
       "name": "Librera FD",
       "installedVersion": null,
-      "latestVersion": "10.0.31-fdroid",
-      "apkUrls": "[[\"Librera-FD-10.0.31-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.31-fdroid.apk\"]]",
+      "latestVersion": "10.0.34-fdroid",
+      "apkUrls": "[[\"Librera-FD-10.0.34-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.34-fdroid.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -215,11 +215,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.31",
+      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.34",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 129373938
+      "apkSizeBytes": 129486787
     },
     {
       "id": "com.chiller3.rsaf",

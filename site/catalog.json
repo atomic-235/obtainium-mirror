@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:58:30Z",
+  "generated_at": "2026-11-13T19:53:52Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -303,44 +303,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "asset_name": "Librera-FD-10.0.31-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.31-fdroid.apk",
-      "author": "foobnix",
-      "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-09T22:33:03Z",
       "name": "Librera FD",
+      "author": "foobnix",
       "package": "com.foobnix.pro.pdf.reader",
+      "version_name": "10.0.34-fdroid",
+      "version_code": 7583,
+      "sha256": "ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
+      "size": 129486787,
+      "asset_name": "Librera-FD-10.0.34-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.34-fdroid.apk",
+      "upstream_ref": "github:444085311:743202179:ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
+      "upstream_tag": "10.0.34",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.34",
+      "upstream_asset": "Librera.Fdroid-10.0.34-mupdf-uni.apk",
+      "published_at": "2026-11-13T10:19:54Z",
+      "mirrored_at": "2026-11-13T19:53:46Z",
       "proprietary": false,
-      "published_at": "2026-11-09T12:32:37Z",
+      "homepage": "https://github.com/foobnix/LibreraReader",
       "security_scan": {
+        "scanned_at": "2026-11-13T19:53:39Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-09T22:32:57Z",
         "virustotal": {
-          "checked_at": "2026-11-09T22:32:57Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1794244457,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 64
+          "undetected": 67,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794584867,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
+          "checked_at": "2026-11-13T19:53:39Z"
         }
       },
-      "sha256": "9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
-      "size": 129373938,
-      "upstream_asset": "Librera.Fdroid-10.0.31-mupdf-uni.apk",
-      "upstream_ref": "github:439110434:727419242:9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
-      "upstream_tag": "10.0.31",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.31",
-      "version_code": 7571,
-      "version_name": "10.0.31-fdroid",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
@@ -565,47 +565,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.45.71",
-      "version_code": 264507149,
-      "sha256": "5479beb034ad50462096ebe0516656edb0b228666fe6a73bd4beafea063c3673",
-      "size": 158269678,
       "asset_name": "WhatsApp-2.26.45.71.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.71.apk",
-      "upstream_ref": "direct:|Fri, 13 Nov 2026 06:33:04 GMT|158269678",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Fri, 13 Nov 2026 06:33:04 GMT",
-      "mirrored_at": "2026-11-13T06:58:27Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-13T06:58:27Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Fri, 13 Nov 2026 06:33:04 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-13T06:58:21Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-13T06:58:21Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 53,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794552397,
+          "checked_at": "2026-11-13T06:58:21Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794552397,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/5479beb034ad50462096ebe0516656edb0b228666fe6a73bd4beafea063c3673",
-          "checked_at": "2026-11-13T06:58:21Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 53
         }
       },
+      "sha256": "5479beb034ad50462096ebe0516656edb0b228666fe6a73bd4beafea063c3673",
+      "size": 158269678,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Fri, 13 Nov 2026 06:33:04 GMT|158269678",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264507149,
+      "version_name": "2.26.45.71",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"

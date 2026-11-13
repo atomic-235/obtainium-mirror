@@ -212,18 +212,18 @@
       "version_name": "4.17"
     },
     "com.foobnix.pro.pdf.reader": {
-      "asset_name": "Librera-FD-10.0.31-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.31-fdroid.apk",
+      "asset_name": "Librera-FD-10.0.34-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.34-fdroid.apk",
       "author": "foobnix",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
       "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-09T22:33:03Z",
+      "mirrored_at": "2026-11-13T19:53:46Z",
       "name": "Librera FD",
       "package": "com.foobnix.pro.pdf.reader",
       "proprietary": false,
-      "published_at": "2026-11-09T12:32:37Z",
+      "published_at": "2026-11-13T10:19:54Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -231,28 +231,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-09T22:32:57Z",
+        "scanned_at": "2026-11-13T19:53:39Z",
         "virustotal": {
-          "checked_at": "2026-11-09T22:32:57Z",
+          "checked_at": "2026-11-13T19:53:39Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1794244457,
+          "last_analysis_date": 1794584867,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
+          "permalink": "https://www.virustotal.com/gui/file/ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 64
+          "undetected": 67
         }
       },
-      "sha256": "9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
-      "size": 129373938,
-      "upstream_asset": "Librera.Fdroid-10.0.31-mupdf-uni.apk",
-      "upstream_ref": "github:439110434:727419242:9d3720d3caaf7d9f3e4c8aa115eb7ae816df8171a60ecb8e70377a9ebc8f8542",
-      "upstream_tag": "10.0.31",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.31",
-      "version_code": 7571,
-      "version_name": "10.0.31-fdroid"
+      "sha256": "ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
+      "size": 129486787,
+      "upstream_asset": "Librera.Fdroid-10.0.34-mupdf-uni.apk",
+      "upstream_ref": "github:444085311:743202179:ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
+      "upstream_tag": "10.0.34",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.34",
+      "version_code": 7583,
+      "version_name": "10.0.34-fdroid"
     },
     "com.geeksville.mesh": {
       "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
