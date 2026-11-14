@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:46:23Z",
+  "generated_at": "2026-11-14T18:20:03Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -303,36 +303,36 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "name": "Librera FD",
-      "author": "foobnix",
-      "package": "com.foobnix.pro.pdf.reader",
-      "version_name": "10.0.35-fdroid",
-      "version_code": 7587,
-      "sha256": "2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
-      "size": 129486807,
       "asset_name": "Librera-FD-10.0.35-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.35-fdroid.apk",
+      "author": "foobnix",
+      "homepage": "https://github.com/foobnix/LibreraReader",
+      "mirrored_at": "2026-11-14T06:46:18Z",
+      "name": "Librera FD",
+      "package": "com.foobnix.pro.pdf.reader",
+      "proprietary": false,
+      "published_at": "2026-11-13T20:32:46Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-14T06:46:12Z",
+        "virustotal": {
+          "permalink": "https://www.virustotal.com/gui/file/2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
+          "status": "not_found"
+        }
+      },
+      "sha256": "2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
+      "size": 129486807,
+      "upstream_asset": "Librera.Fdroid-10.0.35-mupdf-uni.apk",
       "upstream_ref": "github:444708489:745082461:2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
       "upstream_tag": "10.0.35",
       "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.35",
-      "upstream_asset": "Librera.Fdroid-10.0.35-mupdf-uni.apk",
-      "published_at": "2026-11-13T20:32:46Z",
-      "mirrored_at": "2026-11-14T06:46:18Z",
-      "proprietary": false,
-      "homepage": "https://github.com/foobnix/LibreraReader",
-      "security_scan": {
-        "scanned_at": "2026-11-14T06:46:12Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056"
-        }
-      },
+      "version_code": 7587,
+      "version_name": "10.0.35-fdroid",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
