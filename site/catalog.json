@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:53:52Z",
+  "generated_at": "2026-11-14T06:46:23Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -306,22 +306,22 @@
       "name": "Librera FD",
       "author": "foobnix",
       "package": "com.foobnix.pro.pdf.reader",
-      "version_name": "10.0.34-fdroid",
-      "version_code": 7583,
-      "sha256": "ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
-      "size": 129486787,
-      "asset_name": "Librera-FD-10.0.34-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.34-fdroid.apk",
-      "upstream_ref": "github:444085311:743202179:ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
-      "upstream_tag": "10.0.34",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.34",
-      "upstream_asset": "Librera.Fdroid-10.0.34-mupdf-uni.apk",
-      "published_at": "2026-11-13T10:19:54Z",
-      "mirrored_at": "2026-11-13T19:53:46Z",
+      "version_name": "10.0.35-fdroid",
+      "version_code": 7587,
+      "sha256": "2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
+      "size": 129486807,
+      "asset_name": "Librera-FD-10.0.35-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.0.35-fdroid.apk",
+      "upstream_ref": "github:444708489:745082461:2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056",
+      "upstream_tag": "10.0.35",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.0.35",
+      "upstream_asset": "Librera.Fdroid-10.0.35-mupdf-uni.apk",
+      "published_at": "2026-11-13T20:32:46Z",
+      "mirrored_at": "2026-11-14T06:46:18Z",
       "proprietary": false,
       "homepage": "https://github.com/foobnix/LibreraReader",
       "security_scan": {
-        "scanned_at": "2026-11-13T19:53:39Z",
+        "scanned_at": "2026-11-14T06:46:12Z",
         "apksigner": {
           "status": "verified",
           "schemes": [
@@ -329,16 +329,8 @@
           ]
         },
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 67,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794584867,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/ae5ba581e0e701c8f8fb492c25df4e2a249c61e45bb9a8ac75f896bfedce4171",
-          "checked_at": "2026-11-13T19:53:39Z"
+          "status": "not_found",
+          "permalink": "https://www.virustotal.com/gui/file/2736108960e8ba1f61ce38f0b3b97332093fc0fd1f0373af58483479594aa056"
         }
       },
       "cert_sha256": [
