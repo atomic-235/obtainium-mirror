@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-17T08:10:39Z",
+  "exportedAt": "2026-11-17T21:07:00Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -388,8 +388,8 @@
       "author": "ProtonVPN",
       "name": "Proton VPN",
       "installedVersion": null,
-      "latestVersion": "5.20.98.0",
-      "apkUrls": "[[\"Proton-VPN-5.20.98.0.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.20.98.0.apk\"]]",
+      "latestVersion": "5.21.57.0",
+      "apkUrls": "[[\"Proton-VPN-5.21.57.0.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.21.57.0.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -399,11 +399,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ProtonVPN/android-app/releases/tag/5.20.98.0",
+      "releaseUrl": "https://github.com/ProtonVPN/android-app/releases/tag/5.21.57.0",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 60489358
+      "apkSizeBytes": 61133400
     },
     {
       "id": "io.simplelogin.android.fdroid",

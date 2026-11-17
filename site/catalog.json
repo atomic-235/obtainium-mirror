@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:10:39Z",
+  "generated_at": "2026-11-17T21:07:00Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -605,37 +605,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.whatsapp/"
     },
     {
-      "asset_name": "Proton-VPN-5.20.98.0.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.20.98.0.apk",
-      "author": "ProtonVPN",
-      "homepage": "https://github.com/ProtonVPN/android-app",
-      "mirrored_at": "2026-11-08T16:13:59Z",
       "name": "Proton VPN",
+      "author": "ProtonVPN",
       "package": "ch.protonvpn.android.reproducible",
+      "version_name": "5.21.57.0",
+      "version_code": 605215700,
+      "sha256": "89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
+      "size": 61133400,
+      "asset_name": "Proton-VPN-5.21.57.0.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.21.57.0.apk",
+      "upstream_ref": "github:449002292:760067874:89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
+      "upstream_tag": "5.21.57.0",
+      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.21.57.0",
+      "upstream_asset": "ProtonVPN-5.21.57.0.605215700.-production-vanilla-openSource-release-fdroid.apk",
+      "published_at": "2026-11-17T17:59:05Z",
+      "mirrored_at": "2026-11-17T21:06:58Z",
       "proprietary": false,
-      "published_at": "2026-10-22T08:39:29Z",
+      "homepage": "https://github.com/ProtonVPN/android-app",
       "security_scan": {
+        "scanned_at": "2026-11-17T21:06:52Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:13:56Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 62,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794940794,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
+          "checked_at": "2026-11-17T21:06:52Z"
         }
       },
-      "sha256": "a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
-      "size": 60489358,
-      "upstream_asset": "ProtonVPN-5.20.98.0.605209800.-production-vanilla-openSource-release-fdroid.apk",
-      "upstream_ref": "github:420482970:665212705:a0aa2adc8d93f7f47a971c886b50ceb7ec77539b1ecc265ee350dce5da8bff27",
-      "upstream_tag": "5.20.98.0",
-      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.20.98.0",
-      "version_code": 605209800,
-      "version_name": "5.20.98.0",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
