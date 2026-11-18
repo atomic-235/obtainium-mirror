@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:07:00Z",
+  "generated_at": "2026-11-18T07:44:25Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -483,36 +483,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/ch.protonmail.android/"
     },
     {
-      "asset_name": "Venice-AI-1.17.19.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.19.apk",
-      "author": "venice.ai",
-      "homepage": "https://venice.ai/lp/download",
-      "mirrored_at": "2026-11-08T16:13:41Z",
       "name": "Venice AI",
+      "author": "venice.ai",
       "package": "com.ai.venice",
+      "version_name": "1.17.20",
+      "version_code": 214,
+      "sha256": "37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+      "size": 223794479,
+      "asset_name": "Venice-AI-1.17.20.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.20.apk",
+      "upstream_ref": "github:449336552:761100210:37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+      "upstream_tag": "v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
+      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
+      "upstream_asset": "venice.apk",
+      "published_at": "2026-11-17T23:45:04Z",
+      "mirrored_at": "2026-11-18T07:44:23Z",
       "proprietary": true,
-      "published_at": "2026-10-31T21:24:06Z",
+      "homepage": "https://venice.ai/lp/download",
       "security_scan": {
+        "scanned_at": "2026-11-18T07:44:16Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:13:32Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 65,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1794960540,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+          "checked_at": "2026-11-18T07:44:16Z"
         }
       },
-      "sha256": "526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "size": 211697156,
-      "upstream_asset": "venice.apk",
-      "upstream_ref": "github:430194745:696518939:526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "upstream_tag": "v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "version_code": 210,
-      "version_name": "1.17.19",
       "cert_sha256": [
         "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
       ],
@@ -605,45 +613,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.whatsapp/"
     },
     {
-      "name": "Proton VPN",
-      "author": "ProtonVPN",
-      "package": "ch.protonvpn.android.reproducible",
-      "version_name": "5.21.57.0",
-      "version_code": 605215700,
-      "sha256": "89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
-      "size": 61133400,
       "asset_name": "Proton-VPN-5.21.57.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-VPN-5.21.57.0.apk",
-      "upstream_ref": "github:449002292:760067874:89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
-      "upstream_tag": "5.21.57.0",
-      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.21.57.0",
-      "upstream_asset": "ProtonVPN-5.21.57.0.605215700.-production-vanilla-openSource-release-fdroid.apk",
-      "published_at": "2026-11-17T17:59:05Z",
-      "mirrored_at": "2026-11-17T21:06:58Z",
-      "proprietary": false,
+      "author": "ProtonVPN",
       "homepage": "https://github.com/ProtonVPN/android-app",
+      "mirrored_at": "2026-11-17T21:06:58Z",
+      "name": "Proton VPN",
+      "package": "ch.protonvpn.android.reproducible",
+      "proprietary": false,
+      "published_at": "2026-11-17T17:59:05Z",
       "security_scan": {
-        "scanned_at": "2026-11-17T21:06:52Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-17T21:06:52Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 62,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794940794,
+          "checked_at": "2026-11-17T21:06:52Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794940794,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
-          "checked_at": "2026-11-17T21:06:52Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 62
         }
       },
+      "sha256": "89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
+      "size": 61133400,
+      "upstream_asset": "ProtonVPN-5.21.57.0.605215700.-production-vanilla-openSource-release-fdroid.apk",
+      "upstream_ref": "github:449002292:760067874:89976c70f8dbbc7bdd15551386e551f735a989167a9287f37b08104f742c2ab2",
+      "upstream_tag": "5.21.57.0",
+      "upstream_url": "https://github.com/ProtonVPN/android-app/releases/tag/5.21.57.0",
+      "version_code": 605215700,
+      "version_name": "5.21.57.0",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],

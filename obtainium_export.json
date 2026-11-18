@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-17T21:07:00Z",
+  "exportedAt": "2026-11-18T07:44:25Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -319,8 +319,8 @@
       "author": "venice.ai",
       "name": "Venice AI",
       "installedVersion": null,
-      "latestVersion": "1.17.19",
-      "apkUrls": "[[\"Venice-AI-1.17.19.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.19.apk\"]]",
+      "latestVersion": "1.17.20",
+      "apkUrls": "[[\"Venice-AI-1.17.20.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.20.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -330,11 +330,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
+      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 211697156
+      "apkSizeBytes": 223794479
     },
     {
       "id": "nodomain.freeyourgadget.gadgetbridge",

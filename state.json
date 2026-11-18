@@ -115,18 +115,18 @@
       "version_name": "5.21.57.0"
     },
     "com.ai.venice": {
-      "asset_name": "Venice-AI-1.17.19.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.19.apk",
+      "asset_name": "Venice-AI-1.17.20.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.20.apk",
       "author": "venice.ai",
       "cert_sha256": [
         "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
       ],
       "homepage": "https://venice.ai/lp/download",
-      "mirrored_at": "2026-11-08T16:13:41Z",
+      "mirrored_at": "2026-11-18T07:44:23Z",
       "name": "Venice AI",
       "package": "com.ai.venice",
       "proprietary": true,
-      "published_at": "2026-10-31T21:24:06Z",
+      "published_at": "2026-11-17T23:45:04Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -134,20 +134,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:13:32Z",
+        "scanned_at": "2026-11-18T07:44:16Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-18T07:44:16Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794960540,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
         }
       },
-      "sha256": "526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "size": 211697156,
+      "sha256": "37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+      "size": 223794479,
       "upstream_asset": "venice.apk",
-      "upstream_ref": "github:430194745:696518939:526d1e6385caea847e526e28e2174d0ece6d0ed671a9f0fd5a1e5a8f794d2f37",
-      "upstream_tag": "v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.19-55545ce5-97bf-47cc-b952-ec4518ef2054",
-      "version_code": 210,
-      "version_name": "1.17.19"
+      "upstream_ref": "github:449336552:761100210:37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
+      "upstream_tag": "v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
+      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
+      "version_code": 214,
+      "version_name": "1.17.20"
     },
     "com.akylas.documentscanner": {
       "asset_name": "OSS-Document-Scanner-1.26.2.165.apk",
