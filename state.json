@@ -36,18 +36,18 @@
       "version_name": "5.5.5"
     },
     "ch.protonmail.android": {
-      "asset_name": "Proton-Mail-7.11.12.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.11.12.apk",
+      "asset_name": "Proton-Mail-7.12.1.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.1.apk",
       "author": "ProtonMail",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "homepage": "https://github.com/ProtonMail/android-mail",
-      "mirrored_at": "2026-11-08T16:13:30Z",
+      "mirrored_at": "2026-11-18T20:44:18Z",
       "name": "Proton Mail",
       "package": "ch.protonmail.android",
       "proprietary": false,
-      "published_at": "2026-11-04T13:53:15Z",
+      "published_at": "2026-11-18T12:46:22Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -55,20 +55,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:13:24Z",
+        "scanned_at": "2026-11-18T20:44:10Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-18T20:44:10Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794816351,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 66
         }
       },
-      "sha256": "a28d672466da3b4baae467fb5860783aa5a1a92ebf7d4cb9ae2479c59f8f439c",
-      "size": 159142741,
-      "upstream_asset": "ProtonMail-7.11.12_18327.apk",
-      "upstream_ref": "github:433972729:709648779:a28d672466da3b4baae467fb5860783aa5a1a92ebf7d4cb9ae2479c59f8f439c",
-      "upstream_tag": "7.11.12(18327)",
-      "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.11.12(18327)",
-      "version_code": 18327,
-      "version_name": "7.11.12"
+      "sha256": "3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+      "size": 173889186,
+      "upstream_asset": "ProtonMail-7.12.1_19175.apk",
+      "upstream_ref": "github:449968263:763367254:3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+      "upstream_tag": "7.12.1(19175)",
+      "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.1(19175)",
+      "version_code": 19175,
+      "version_name": "7.12.1"
     },
     "ch.protonvpn.android.reproducible": {
       "asset_name": "Proton-VPN-5.21.57.0.apk",
@@ -377,19 +385,19 @@
       "version_name": "1.6.1"
     },
     "com.whatsapp": {
-      "asset_name": "WhatsApp-2.26.45.94.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.94.apk",
+      "asset_name": "WhatsApp-2.26.45.100.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.100.apk",
       "author": "WhatsApp",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
       ],
       "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-15T18:59:08Z",
+      "mirrored_at": "2026-11-18T20:44:36Z",
       "name": "WhatsApp",
       "package": "com.whatsapp",
       "proprietary": true,
-      "published_at": "Sun, 15 Nov 2026 07:01:57 GMT",
+      "published_at": "Wed, 18 Nov 2026 19:02:22 GMT",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -400,28 +408,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-15T18:59:00Z",
+        "scanned_at": "2026-11-18T20:44:26Z",
         "virustotal": {
-          "checked_at": "2026-11-15T18:59:00Z",
+          "checked_at": "2026-11-18T20:44:26Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1794727051,
+          "last_analysis_date": 1795031025,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/ec5d689478514aeb53059f83f23c31a0c010d22593a4883a962e46f44de7048e",
+          "permalink": "https://www.virustotal.com/gui/file/23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 58
+          "undetected": 55
         }
       },
-      "sha256": "ec5d689478514aeb53059f83f23c31a0c010d22593a4883a962e46f44de7048e",
-      "size": 158548719,
+      "sha256": "23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
+      "size": 158614369,
       "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Sun, 15 Nov 2026 07:01:57 GMT|158548719",
+      "upstream_ref": "direct:|Wed, 18 Nov 2026 19:02:22 GMT|158614369",
       "upstream_tag": null,
       "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264509449,
-      "version_name": "2.26.45.94"
+      "version_code": 264510049,
+      "version_name": "2.26.45.100"
     },
     "de.seemoo.at_tracking_detection.release": {
       "asset_name": "AirGuard-3.1.3.apk",
