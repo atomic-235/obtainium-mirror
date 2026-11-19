@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:41:35Z",
+  "generated_at": "2026-11-19T20:50:10Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -573,47 +573,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "asset_name": "WhatsApp-2.26.45.100.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.100.apk",
-      "author": "WhatsApp",
-      "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-18T20:44:36Z",
       "name": "WhatsApp",
+      "author": "WhatsApp",
       "package": "com.whatsapp",
+      "version_name": "2.26.46.70",
+      "version_code": 264607049,
+      "sha256": "4d10d551dcff7c308ff3a5dc798b69f1ad63b3c2ce01bc3ebda6bb70997e6948",
+      "size": 161306631,
+      "asset_name": "WhatsApp-2.26.46.70.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.70.apk",
+      "upstream_ref": "direct:|Thu, 19 Nov 2026 09:00:24 GMT|161306631",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "upstream_asset": "WhatsApp.apk",
+      "published_at": "Thu, 19 Nov 2026 09:00:24 GMT",
+      "mirrored_at": "2026-11-19T20:50:07Z",
       "proprietary": true,
-      "published_at": "Wed, 18 Nov 2026 19:02:22 GMT",
+      "homepage": "https://www.whatsapp.com/android/",
       "security_scan": {
+        "scanned_at": "2026-11-19T20:50:00Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-18T20:44:26Z",
         "virustotal": {
-          "checked_at": "2026-11-18T20:44:26Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1795031025,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 55
+          "undetected": 48,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795081054,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/4d10d551dcff7c308ff3a5dc798b69f1ad63b3c2ce01bc3ebda6bb70997e6948",
+          "checked_at": "2026-11-19T20:50:00Z"
         }
       },
-      "sha256": "23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
-      "size": 158614369,
-      "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Wed, 18 Nov 2026 19:02:22 GMT|158614369",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264510049,
-      "version_name": "2.26.45.100",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
