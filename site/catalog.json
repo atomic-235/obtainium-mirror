@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:44:39Z",
+  "generated_at": "2026-11-19T07:41:35Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -447,44 +447,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/me.proton.android.drive/"
     },
     {
-      "name": "Proton Mail",
-      "author": "ProtonMail",
-      "package": "ch.protonmail.android",
-      "version_name": "7.12.1",
-      "version_code": 19175,
-      "sha256": "3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
-      "size": 173889186,
       "asset_name": "Proton-Mail-7.12.1.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.1.apk",
+      "author": "ProtonMail",
+      "homepage": "https://github.com/ProtonMail/android-mail",
+      "mirrored_at": "2026-11-18T20:44:18Z",
+      "name": "Proton Mail",
+      "package": "ch.protonmail.android",
+      "proprietary": false,
+      "published_at": "2026-11-18T12:46:22Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-18T20:44:10Z",
+        "virustotal": {
+          "checked_at": "2026-11-18T20:44:10Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1794816351,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 66
+        }
+      },
+      "sha256": "3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+      "size": 173889186,
+      "upstream_asset": "ProtonMail-7.12.1_19175.apk",
       "upstream_ref": "github:449968263:763367254:3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
       "upstream_tag": "7.12.1(19175)",
       "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.1(19175)",
-      "upstream_asset": "ProtonMail-7.12.1_19175.apk",
-      "published_at": "2026-11-18T12:46:22Z",
-      "mirrored_at": "2026-11-18T20:44:18Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ProtonMail/android-mail",
-      "security_scan": {
-        "scanned_at": "2026-11-18T20:44:10Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 66,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1794816351,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
-          "checked_at": "2026-11-18T20:44:10Z"
-        }
-      },
+      "version_code": 19175,
+      "version_name": "7.12.1",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
@@ -573,47 +573,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.45.100",
-      "version_code": 264510049,
-      "sha256": "23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
-      "size": 158614369,
       "asset_name": "WhatsApp-2.26.45.100.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.45.100.apk",
-      "upstream_ref": "direct:|Wed, 18 Nov 2026 19:02:22 GMT|158614369",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Wed, 18 Nov 2026 19:02:22 GMT",
-      "mirrored_at": "2026-11-18T20:44:36Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-18T20:44:36Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Wed, 18 Nov 2026 19:02:22 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-18T20:44:26Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-18T20:44:26Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 55,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795031025,
+          "checked_at": "2026-11-18T20:44:26Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795031025,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
-          "checked_at": "2026-11-18T20:44:26Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 55
         }
       },
+      "sha256": "23bd4b7ab37d0653179b90bf175290744534c31ef8e9a68196ce7a8b9f654a30",
+      "size": 158614369,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Wed, 18 Nov 2026 19:02:22 GMT|158614369",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264510049,
+      "version_name": "2.26.45.100",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
