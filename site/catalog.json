@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:34:41Z",
+  "generated_at": "2026-11-21T07:27:11Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.4.apk",
@@ -303,51 +303,15 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "name": "Librera FD",
-      "author": "foobnix",
-      "package": "com.foobnix.pro.pdf.reader",
-      "version_name": "10.1.7-fdroid",
-      "version_code": 7643,
-      "sha256": "d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
-      "size": 128967849,
       "asset_name": "Librera-FD-10.1.7-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.1.7-fdroid.apk",
-      "upstream_ref": "github:452397775:770926973:d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
-      "upstream_tag": "10.1.7",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.7",
-      "upstream_asset": "Librera.Fdroid-10.1.7-mupdf-uni.apk",
-      "published_at": "2026-11-20T07:43:10Z",
-      "mirrored_at": "2026-11-20T20:34:20Z",
-      "proprietary": false,
+      "author": "foobnix",
       "homepage": "https://github.com/foobnix/LibreraReader",
-      "security_scan": {
-        "scanned_at": "2026-11-20T20:34:10Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476"
-        }
-      },
-      "cert_sha256": [
-        "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
-      ],
-      "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.foobnix.pro.pdf.reader/"
-    },
-    {
-      "asset_name": "RSAF-4.17.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/RSAF-4.17.apk",
-      "author": "chenxiaolong",
-      "homepage": "https://github.com/chenxiaolong/RSAF",
-      "mirrored_at": "2026-11-08T16:13:07Z",
-      "name": "RSAF",
-      "package": "com.chiller3.rsaf",
+      "mirrored_at": "2026-11-20T20:34:20Z",
+      "name": "Librera FD",
+      "package": "com.foobnix.pro.pdf.reader",
       "proprietary": false,
-      "published_at": "2026-11-06T23:00:58Z",
+      "published_at": "2026-11-20T07:43:10Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -355,20 +319,64 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:13:04Z",
+        "scanned_at": "2026-11-20T20:34:10Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "permalink": "https://www.virustotal.com/gui/file/d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
+          "status": "not_found"
         }
       },
-      "sha256": "9c2546aad1c787250fe93ef76c7dc317eba2e13a47374f3ae2ac56f7d5c3156b",
-      "size": 74233811,
-      "upstream_asset": "RSAF-4.17-arm64-v8a-release.apk",
-      "upstream_ref": "github:437146441:718861585:9c2546aad1c787250fe93ef76c7dc317eba2e13a47374f3ae2ac56f7d5c3156b",
-      "upstream_tag": "v4.17",
-      "upstream_url": "https://github.com/chenxiaolong/RSAF/releases/tag/v4.17",
-      "version_code": 266498,
-      "version_name": "4.17",
+      "sha256": "d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
+      "size": 128967849,
+      "upstream_asset": "Librera.Fdroid-10.1.7-mupdf-uni.apk",
+      "upstream_ref": "github:452397775:770926973:d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
+      "upstream_tag": "10.1.7",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.7",
+      "version_code": 7643,
+      "version_name": "10.1.7-fdroid",
+      "cert_sha256": [
+        "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.foobnix.pro.pdf.reader/"
+    },
+    {
+      "name": "RSAF",
+      "author": "chenxiaolong",
+      "package": "com.chiller3.rsaf",
+      "version_name": "4.18",
+      "version_code": 266754,
+      "sha256": "e408ac523ce7b279fd7a6ab1438f8d529824aee11c7525bc2942dbb0c9e6beba",
+      "size": 74295835,
+      "asset_name": "RSAF-4.18.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/RSAF-4.18.apk",
+      "upstream_ref": "github:453345191:773969532:e408ac523ce7b279fd7a6ab1438f8d529824aee11c7525bc2942dbb0c9e6beba",
+      "upstream_tag": "v4.18",
+      "upstream_url": "https://github.com/chenxiaolong/RSAF/releases/tag/v4.18",
+      "upstream_asset": "RSAF-4.18-arm64-v8a-release.apk",
+      "published_at": "2026-11-21T01:09:42Z",
+      "mirrored_at": "2026-11-21T07:27:03Z",
+      "proprietary": false,
+      "homepage": "https://github.com/chenxiaolong/RSAF",
+      "security_scan": {
+        "scanned_at": "2026-11-21T07:26:58Z",
+        "apksigner": {
+          "status": "verified",
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ]
+        },
+        "virustotal": {
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 65,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795223421,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/e408ac523ce7b279fd7a6ab1438f8d529824aee11c7525bc2942dbb0c9e6beba",
+          "checked_at": "2026-11-21T07:26:58Z"
+        }
+      },
       "cert_sha256": [
         "b2506499bea1c5a6e658f07be6773fe486999dc124204c6522af7407503ac9f9"
       ],
@@ -783,45 +791,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.geeksville.mesh/"
     },
     {
-      "name": "Telegram",
-      "author": "Telegram",
-      "package": "org.telegram.messenger.web",
-      "version_name": "13.3.0",
-      "version_code": 73419,
-      "sha256": "b69222dff5b9b152bb184330e3588d03ee28218555b0995c3f25b81b21abe729",
-      "size": 81596565,
       "asset_name": "Telegram-13.3.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.3.0.apk",
-      "upstream_ref": "direct:\"5f2457fc061b799eed3cf89b7251dcac9315004d\"||81596565",
-      "upstream_tag": null,
-      "upstream_url": "https://telegram.org/dl/android/apk",
-      "upstream_asset": "apk",
-      "published_at": null,
-      "mirrored_at": "2026-11-20T20:34:41Z",
-      "proprietary": true,
+      "author": "Telegram",
       "homepage": "https://telegram.org/android",
+      "mirrored_at": "2026-11-20T20:34:41Z",
+      "name": "Telegram",
+      "package": "org.telegram.messenger.web",
+      "proprietary": true,
+      "published_at": null,
       "security_scan": {
-        "scanned_at": "2026-11-20T20:34:32Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-20T20:34:32Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 65,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795201103,
+          "checked_at": "2026-11-20T20:34:32Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795201103,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/b69222dff5b9b152bb184330e3588d03ee28218555b0995c3f25b81b21abe729",
-          "checked_at": "2026-11-20T20:34:32Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
         }
       },
+      "sha256": "b69222dff5b9b152bb184330e3588d03ee28218555b0995c3f25b81b21abe729",
+      "size": 81596565,
+      "upstream_asset": "apk",
+      "upstream_ref": "direct:\"5f2457fc061b799eed3cf89b7251dcac9315004d\"||81596565",
+      "upstream_tag": null,
+      "upstream_url": "https://telegram.org/dl/android/apk",
+      "version_code": 73419,
+      "version_name": "13.3.0",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],

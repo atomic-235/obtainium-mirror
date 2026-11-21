@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-20T20:34:41Z",
+  "exportedAt": "2026-11-21T07:27:11Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -227,8 +227,8 @@
       "author": "chenxiaolong",
       "name": "RSAF",
       "installedVersion": null,
-      "latestVersion": "4.17",
-      "apkUrls": "[[\"RSAF-4.17.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/RSAF-4.17.apk\"]]",
+      "latestVersion": "4.18",
+      "apkUrls": "[[\"RSAF-4.18.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/RSAF-4.18.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -238,11 +238,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/chenxiaolong/RSAF/releases/tag/v4.17",
+      "releaseUrl": "https://github.com/chenxiaolong/RSAF/releases/tag/v4.18",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 74233811
+      "apkSizeBytes": 74295835
     },
     {
       "id": "de.seemoo.at_tracking_detection.release",
