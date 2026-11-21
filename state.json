@@ -244,18 +244,18 @@
       "version_name": "4.18"
     },
     "com.foobnix.pro.pdf.reader": {
-      "asset_name": "Librera-FD-10.1.7-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.1.7-fdroid.apk",
+      "asset_name": "Librera-FD-10.1.14-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.1.14-fdroid.apk",
       "author": "foobnix",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
       "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-20T20:34:20Z",
+      "mirrored_at": "2026-11-21T19:31:40Z",
       "name": "Librera FD",
       "package": "com.foobnix.pro.pdf.reader",
       "proprietary": false,
-      "published_at": "2026-11-20T07:43:10Z",
+      "published_at": "2026-11-21T09:41:02Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -263,20 +263,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-20T20:34:10Z",
+        "scanned_at": "2026-11-21T19:31:32Z",
         "virustotal": {
-          "permalink": "https://www.virustotal.com/gui/file/d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
-          "status": "not_found"
+          "checked_at": "2026-11-21T19:31:32Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795282706,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 67
         }
       },
-      "sha256": "d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
-      "size": 128967849,
-      "upstream_asset": "Librera.Fdroid-10.1.7-mupdf-uni.apk",
-      "upstream_ref": "github:452397775:770926973:d1c11e1cd7e6a822f2a2c19ac894f62c166f38061bbb1c330cbc0fda8a55f476",
-      "upstream_tag": "10.1.7",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.7",
-      "version_code": 7643,
-      "version_name": "10.1.7-fdroid"
+      "sha256": "0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
+      "size": 127991276,
+      "upstream_asset": "Librera.Fdroid-10.1.14-mupdf-uni.apk",
+      "upstream_ref": "github:453583912:775085284:0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
+      "upstream_tag": "10.1.14",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.14",
+      "version_code": 7671,
+      "version_name": "10.1.14-fdroid"
     },
     "com.geeksville.mesh": {
       "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
@@ -770,14 +778,14 @@
       "version_name": "0.29.3"
     },
     "org.telegram.messenger.web": {
-      "asset_name": "Telegram-13.3.0.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.3.0.apk",
+      "asset_name": "Telegram-13.3.1.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Telegram-13.3.1.apk",
       "author": "Telegram",
       "cert_sha256": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
       "homepage": "https://telegram.org/android",
-      "mirrored_at": "2026-11-20T20:34:41Z",
+      "mirrored_at": "2026-11-21T19:31:57Z",
       "name": "Telegram",
       "package": "org.telegram.messenger.web",
       "proprietary": true,
@@ -790,28 +798,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-20T20:34:32Z",
+        "scanned_at": "2026-11-21T19:31:52Z",
         "virustotal": {
-          "checked_at": "2026-11-20T20:34:32Z",
+          "checked_at": "2026-11-21T19:31:52Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1795201103,
+          "last_analysis_date": 1795266995,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/b69222dff5b9b152bb184330e3588d03ee28218555b0995c3f25b81b21abe729",
+          "permalink": "https://www.virustotal.com/gui/file/402d44cdf7b73bc93fde403e11b43e0b469e290ae168055067eb8a7c1629b394",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 65
+          "undetected": 49
         }
       },
-      "sha256": "b69222dff5b9b152bb184330e3588d03ee28218555b0995c3f25b81b21abe729",
-      "size": 81596565,
+      "sha256": "402d44cdf7b73bc93fde403e11b43e0b469e290ae168055067eb8a7c1629b394",
+      "size": 81653599,
       "upstream_asset": "apk",
-      "upstream_ref": "direct:\"5f2457fc061b799eed3cf89b7251dcac9315004d\"||81596565",
+      "upstream_ref": "direct:\"0658790ec2206a5e3b2c7151c3da0f85e4d5e145\"||81653599",
       "upstream_tag": null,
       "upstream_url": "https://telegram.org/dl/android/apk",
-      "version_code": 73419,
-      "version_name": "13.3.0"
+      "version_code": 73469,
+      "version_name": "13.3.1"
     }
   },
   "schema": 1
