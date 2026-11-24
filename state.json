@@ -44,18 +44,18 @@
       "version_name": "5.9.15"
     },
     "ch.protonmail.android": {
-      "asset_name": "Proton-Mail-7.12.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.1.apk",
+      "asset_name": "Proton-Mail-7.12.4.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.4.apk",
       "author": "ProtonMail",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "homepage": "https://github.com/ProtonMail/android-mail",
-      "mirrored_at": "2026-11-18T20:44:18Z",
+      "mirrored_at": "2026-11-24T22:38:37Z",
       "name": "Proton Mail",
       "package": "ch.protonmail.android",
       "proprietary": false,
-      "published_at": "2026-11-18T12:46:22Z",
+      "published_at": "2026-11-24T13:14:50Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -63,28 +63,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-18T20:44:10Z",
+        "scanned_at": "2026-11-24T22:38:23Z",
         "virustotal": {
-          "checked_at": "2026-11-18T20:44:10Z",
+          "checked_at": "2026-11-24T22:38:23Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1794816351,
+          "last_analysis_date": 1795526454,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
+          "permalink": "https://www.virustotal.com/gui/file/77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 66
+          "undetected": 65
         }
       },
-      "sha256": "3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
-      "size": 173889186,
-      "upstream_asset": "ProtonMail-7.12.1_19175.apk",
-      "upstream_ref": "github:449968263:763367254:3f664f1167e7bc9332a07cc2d9b2151ec455445cdae9411928114a2b1e4adb81",
-      "upstream_tag": "7.12.1(19175)",
-      "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.1(19175)",
-      "version_code": 19175,
-      "version_name": "7.12.1"
+      "sha256": "77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
+      "size": 175441570,
+      "upstream_asset": "ProtonMail-7.12.4_19338.apk",
+      "upstream_ref": "github:456774449:787252435:77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
+      "upstream_tag": "7.12.4(19338)",
+      "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.4(19338)",
+      "version_code": 19338,
+      "version_name": "7.12.4"
     },
     "ch.protonvpn.android.reproducible": {
       "asset_name": "Proton-VPN-5.21.57.0.apk",
@@ -131,18 +131,18 @@
       "version_name": "5.21.57.0"
     },
     "com.ai.venice": {
-      "asset_name": "Venice-AI-1.17.20.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.20.apk",
+      "asset_name": "Venice-AI-1.17.21.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.21.apk",
       "author": "venice.ai",
       "cert_sha256": [
         "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
       ],
       "homepage": "https://venice.ai/lp/download",
-      "mirrored_at": "2026-11-18T07:44:23Z",
+      "mirrored_at": "2026-11-24T22:38:48Z",
       "name": "Venice AI",
       "package": "com.ai.venice",
       "proprietary": true,
-      "published_at": "2026-11-17T23:45:04Z",
+      "published_at": "2026-11-24T17:28:14Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -150,28 +150,20 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-18T07:44:16Z",
+        "scanned_at": "2026-11-24T22:38:41Z",
         "virustotal": {
-          "checked_at": "2026-11-18T07:44:16Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1794960540,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
-          "reputation": 0,
-          "status": "found",
-          "suspicious": 0,
-          "undetected": 65
+          "permalink": "https://www.virustotal.com/gui/file/12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
+          "status": "not_found"
         }
       },
-      "sha256": "37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
-      "size": 223794479,
+      "sha256": "12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
+      "size": 225087925,
       "upstream_asset": "venice.apk",
-      "upstream_ref": "github:449336552:761100210:37af25fef4355f89ff8b0ee832134de40c3988b24fcecb2b85cc2a748ac3c44d",
-      "upstream_tag": "v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
-      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
-      "version_code": 214,
-      "version_name": "1.17.20"
+      "upstream_ref": "github:457104904:788152727:12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
+      "upstream_tag": "v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
+      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
+      "version_code": 217,
+      "version_name": "1.17.21"
     },
     "com.akylas.documentscanner": {
       "asset_name": "OSS-Document-Scanner-2.00.0.166.apk",
@@ -260,18 +252,18 @@
       "version_name": "4.18"
     },
     "com.foobnix.pro.pdf.reader": {
-      "asset_name": "Librera-FD-10.1.14-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.1.14-fdroid.apk",
+      "asset_name": "Librera-FD-10.2.2-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.2-fdroid.apk",
       "author": "foobnix",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
       "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-21T19:31:40Z",
+      "mirrored_at": "2026-11-24T22:38:13Z",
       "name": "Librera FD",
       "package": "com.foobnix.pro.pdf.reader",
       "proprietary": false,
-      "published_at": "2026-11-21T09:41:02Z",
+      "published_at": "2026-11-24T18:57:18Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -279,28 +271,20 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-21T19:31:32Z",
+        "scanned_at": "2026-11-24T22:38:07Z",
         "virustotal": {
-          "checked_at": "2026-11-21T19:31:32Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1795282706,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
-          "reputation": 0,
-          "status": "found",
-          "suspicious": 0,
-          "undetected": 67
+          "permalink": "https://www.virustotal.com/gui/file/3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
+          "status": "not_found"
         }
       },
-      "sha256": "0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
-      "size": 127991276,
-      "upstream_asset": "Librera.Fdroid-10.1.14-mupdf-uni.apk",
-      "upstream_ref": "github:453583912:775085284:0bc24f2578aeb45b1f29121b939c00573317fc6379a895be5cfa5363051f2c64",
-      "upstream_tag": "10.1.14",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.14",
-      "version_code": 7671,
-      "version_name": "10.1.14-fdroid"
+      "sha256": "3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
+      "size": 128044044,
+      "upstream_asset": "Librera.Fdroid-10.2.2-mupdf-uni.apk",
+      "upstream_ref": "github:457200058:788445296:3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
+      "upstream_tag": "10.2.2",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.2",
+      "version_code": 7711,
+      "version_name": "10.2.2-fdroid"
     },
     "com.geeksville.mesh": {
       "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
@@ -425,19 +409,19 @@
       "version_name": "1.6.1"
     },
     "com.whatsapp": {
-      "asset_name": "WhatsApp-2.26.46.77.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.77.apk",
+      "asset_name": "WhatsApp-2.26.46.83.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.83.apk",
       "author": "WhatsApp",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
       ],
       "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-24T00:07:39Z",
+      "mirrored_at": "2026-11-24T22:39:04Z",
       "name": "WhatsApp",
       "package": "com.whatsapp",
       "proprietary": true,
-      "published_at": "Mon, 23 Nov 2026 17:04:03 GMT",
+      "published_at": "Tue, 24 Nov 2026 22:03:27 GMT",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -448,28 +432,20 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-24T00:07:31Z",
+        "scanned_at": "2026-11-24T22:38:57Z",
         "virustotal": {
-          "checked_at": "2026-11-24T00:07:31Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1795455875,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
-          "reputation": 0,
-          "status": "found",
-          "suspicious": 0,
-          "undetected": 51
+          "permalink": "https://www.virustotal.com/gui/file/f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
+          "status": "not_found"
         }
       },
-      "sha256": "f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
-      "size": 161827849,
+      "sha256": "f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
+      "size": 161762313,
       "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Mon, 23 Nov 2026 17:04:03 GMT|161827849",
+      "upstream_ref": "direct:|Tue, 24 Nov 2026 22:03:27 GMT|161762313",
       "upstream_tag": null,
       "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264607749,
-      "version_name": "2.26.46.77"
+      "version_code": 264608349,
+      "version_name": "2.26.46.83"
     },
     "de.seemoo.at_tracking_detection.release": {
       "asset_name": "AirGuard-3.1.3.apk",

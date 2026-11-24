@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-24T10:08:27Z",
+  "exportedAt": "2026-11-24T22:39:07Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -204,8 +204,8 @@
       "author": "foobnix",
       "name": "Librera FD",
       "installedVersion": null,
-      "latestVersion": "10.1.14-fdroid",
-      "apkUrls": "[[\"Librera-FD-10.1.14-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.1.14-fdroid.apk\"]]",
+      "latestVersion": "10.2.2-fdroid",
+      "apkUrls": "[[\"Librera-FD-10.2.2-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.2-fdroid.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -215,11 +215,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.1.14",
+      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.2",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 127991276
+      "apkSizeBytes": 128044044
     },
     {
       "id": "com.chiller3.rsaf",
@@ -296,8 +296,8 @@
       "author": "ProtonMail",
       "name": "Proton Mail",
       "installedVersion": null,
-      "latestVersion": "7.12.1",
-      "apkUrls": "[[\"Proton-Mail-7.12.1.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.1.apk\"]]",
+      "latestVersion": "7.12.4",
+      "apkUrls": "[[\"Proton-Mail-7.12.4.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.4.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -307,11 +307,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.1(19175)",
+      "releaseUrl": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.4(19338)",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 173889186
+      "apkSizeBytes": 175441570
     },
     {
       "id": "com.ai.venice",
@@ -319,8 +319,8 @@
       "author": "venice.ai",
       "name": "Venice AI",
       "installedVersion": null,
-      "latestVersion": "1.17.20",
-      "apkUrls": "[[\"Venice-AI-1.17.20.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.20.apk\"]]",
+      "latestVersion": "1.17.21",
+      "apkUrls": "[[\"Venice-AI-1.17.21.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.21.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -330,11 +330,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.20-6cc7bbed-402b-4ad0-bba0-37fd5572d824",
+      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 223794479
+      "apkSizeBytes": 225087925
     },
     {
       "id": "nodomain.freeyourgadget.gadgetbridge",
@@ -365,8 +365,8 @@
       "author": "WhatsApp",
       "name": "WhatsApp",
       "installedVersion": null,
-      "latestVersion": "2.26.46.77",
-      "apkUrls": "[[\"WhatsApp-2.26.46.77.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.77.apk\"]]",
+      "latestVersion": "2.26.46.83",
+      "apkUrls": "[[\"WhatsApp-2.26.46.83.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.83.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -380,7 +380,7 @@
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 161827849
+      "apkSizeBytes": 161762313
     },
     {
       "id": "ch.protonvpn.android.reproducible",
