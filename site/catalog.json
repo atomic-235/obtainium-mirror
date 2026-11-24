@@ -1,38 +1,46 @@
 {
-  "generated_at": "2026-11-23T07:54:47Z",
+  "generated_at": "2026-11-24T00:07:43Z",
   "apps": [
     {
-      "asset_name": "Obtainium-1.7.4.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.4.apk",
-      "author": "ImranR98",
-      "homepage": "https://github.com/ImranR98/Obtainium",
-      "mirrored_at": "2026-11-08T16:12:28Z",
       "name": "Obtainium",
+      "author": "ImranR98",
       "package": "dev.imranr.obtainium",
+      "version_name": "1.7.5",
+      "version_code": 33633,
+      "sha256": "dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+      "size": 34089646,
+      "asset_name": "Obtainium-1.7.5.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.5.apk",
+      "upstream_ref": "github:455873064:784265691:dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+      "upstream_tag": "v1.7.5",
+      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.5",
+      "upstream_asset": "app-arm64-v8a-release.apk",
+      "published_at": "2026-11-23T19:41:54Z",
+      "mirrored_at": "2026-11-24T00:06:45Z",
       "proprietary": false,
-      "published_at": "2026-11-01T06:51:24Z",
+      "homepage": "https://github.com/ImranR98/Obtainium",
       "security_scan": {
+        "scanned_at": "2026-11-24T00:06:41Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:12:25Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 66,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795470161,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+          "checked_at": "2026-11-24T00:06:41Z"
         }
       },
-      "sha256": "f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
-      "size": 34609838,
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "upstream_ref": "github:430404214:697577559:f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80",
-      "upstream_tag": "v1.7.4",
-      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.4",
-      "version_code": 23623,
-      "version_name": "1.7.4",
       "cert_sha256": [
         "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
       ],
@@ -148,37 +156,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/helium314.keyboard/"
     },
     {
-      "asset_name": "KeePassDX-4.5.8.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.8.apk",
-      "author": "Kunzisoft",
-      "homepage": "https://github.com/Kunzisoft/KeePassDX",
-      "mirrored_at": "2026-11-08T16:12:44Z",
       "name": "KeePassDX",
+      "author": "Kunzisoft",
       "package": "com.kunzisoft.keepass.libre",
+      "version_name": "4.5.9",
+      "version_code": 45900,
+      "sha256": "7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
+      "size": 16831506,
+      "asset_name": "KeePassDX-4.5.9.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.9.apk",
+      "upstream_ref": "github:456059004:784735048:7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
+      "upstream_tag": "4.5.9",
+      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.9",
+      "upstream_asset": "KeePassDX-4.5.9-libre.apk",
+      "published_at": "2026-11-23T22:12:48Z",
+      "mirrored_at": "2026-11-24T00:07:18Z",
       "proprietary": false,
-      "published_at": "2026-10-31T20:06:43Z",
+      "homepage": "https://github.com/Kunzisoft/KeePassDX",
       "security_scan": {
+        "scanned_at": "2026-11-24T00:07:14Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:12:42Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 63,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795472059,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
+          "checked_at": "2026-11-24T00:07:14Z"
         }
       },
-      "sha256": "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
-      "size": 16786874,
-      "upstream_asset": "KeePassDX-4.5.8-libre.apk",
-      "upstream_ref": "github:430156592:696358622:8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
-      "upstream_tag": "4.5.8",
-      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.8",
-      "version_code": 45800,
-      "version_name": "4.5.8",
       "cert_sha256": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
@@ -589,47 +605,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "asset_name": "WhatsApp-2.26.46.71.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.71.apk",
-      "author": "WhatsApp",
-      "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-20T07:32:24Z",
       "name": "WhatsApp",
+      "author": "WhatsApp",
       "package": "com.whatsapp",
+      "version_name": "2.26.46.77",
+      "version_code": 264607749,
+      "sha256": "f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
+      "size": 161827849,
+      "asset_name": "WhatsApp-2.26.46.77.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.77.apk",
+      "upstream_ref": "direct:|Mon, 23 Nov 2026 17:04:03 GMT|161827849",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "upstream_asset": "WhatsApp.apk",
+      "published_at": "Mon, 23 Nov 2026 17:04:03 GMT",
+      "mirrored_at": "2026-11-24T00:07:39Z",
       "proprietary": true,
-      "published_at": "Fri, 20 Nov 2026 06:58:56 GMT",
+      "homepage": "https://www.whatsapp.com/android/",
       "security_scan": {
+        "scanned_at": "2026-11-24T00:07:31Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-20T07:32:17Z",
         "virustotal": {
-          "checked_at": "2026-11-20T07:32:17Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1795158663,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/65bb1ef033f06da08a731d513aadae2c1439542b05856597b9e2ffadced44724",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 53
+          "undetected": 51,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795455875,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
+          "checked_at": "2026-11-24T00:07:31Z"
         }
       },
-      "sha256": "65bb1ef033f06da08a731d513aadae2c1439542b05856597b9e2ffadced44724",
-      "size": 161462963,
-      "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Fri, 20 Nov 2026 06:58:56 GMT|161462963",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264607149,
-      "version_name": "2.26.46.71",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"

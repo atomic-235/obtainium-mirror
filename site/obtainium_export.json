@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-23T07:54:47Z",
+  "exportedAt": "2026-11-24T00:07:43Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -20,8 +20,8 @@
       "author": "ImranR98",
       "name": "Obtainium",
       "installedVersion": null,
-      "latestVersion": "1.7.4",
-      "apkUrls": "[[\"Obtainium-1.7.4.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.4.apk\"]]",
+      "latestVersion": "1.7.5",
+      "apkUrls": "[[\"Obtainium-1.7.5.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.5.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -31,11 +31,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.4",
+      "releaseUrl": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.5",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 34609838
+      "apkSizeBytes": 34089646
     },
     {
       "id": "com.akylas.documentscanner",
@@ -112,8 +112,8 @@
       "author": "Kunzisoft",
       "name": "KeePassDX",
       "installedVersion": null,
-      "latestVersion": "4.5.8",
-      "apkUrls": "[[\"KeePassDX-4.5.8.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.8.apk\"]]",
+      "latestVersion": "4.5.9",
+      "apkUrls": "[[\"KeePassDX-4.5.9.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.9.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -123,11 +123,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.8",
+      "releaseUrl": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.9",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 16786874
+      "apkSizeBytes": 16831506
     },
     {
       "id": "com.openappslabs.coffee",
@@ -365,8 +365,8 @@
       "author": "WhatsApp",
       "name": "WhatsApp",
       "installedVersion": null,
-      "latestVersion": "2.26.46.71",
-      "apkUrls": "[[\"WhatsApp-2.26.46.71.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.71.apk\"]]",
+      "latestVersion": "2.26.46.77",
+      "apkUrls": "[[\"WhatsApp-2.26.46.77.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.77.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -380,7 +380,7 @@
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 161462963
+      "apkSizeBytes": 161827849
     },
     {
       "id": "ch.protonvpn.android.reproducible",
