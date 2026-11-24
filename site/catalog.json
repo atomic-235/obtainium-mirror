@@ -1,31 +1,75 @@
 {
-  "generated_at": "2026-11-24T00:07:43Z",
+  "generated_at": "2026-11-24T10:08:27Z",
   "apps": [
     {
-      "name": "Obtainium",
-      "author": "ImranR98",
-      "package": "dev.imranr.obtainium",
-      "version_name": "1.7.5",
-      "version_code": 33633,
-      "sha256": "dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
-      "size": 34089646,
       "asset_name": "Obtainium-1.7.5.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Obtainium-1.7.5.apk",
-      "upstream_ref": "github:455873064:784265691:dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
-      "upstream_tag": "v1.7.5",
-      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.5",
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "published_at": "2026-11-23T19:41:54Z",
-      "mirrored_at": "2026-11-24T00:06:45Z",
-      "proprietary": false,
+      "author": "ImranR98",
       "homepage": "https://github.com/ImranR98/Obtainium",
+      "mirrored_at": "2026-11-24T00:06:45Z",
+      "name": "Obtainium",
+      "package": "dev.imranr.obtainium",
+      "proprietary": false,
+      "published_at": "2026-11-23T19:41:54Z",
       "security_scan": {
-        "scanned_at": "2026-11-24T00:06:41Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-24T00:06:41Z",
+        "virustotal": {
+          "checked_at": "2026-11-24T00:06:41Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795470161,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 66
+        }
+      },
+      "sha256": "dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+      "size": 34089646,
+      "upstream_asset": "app-arm64-v8a-release.apk",
+      "upstream_ref": "github:455873064:784265691:dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
+      "upstream_tag": "v1.7.5",
+      "upstream_url": "https://github.com/ImranR98/Obtainium/releases/tag/v1.7.5",
+      "version_code": 33633,
+      "version_name": "1.7.5",
+      "cert_sha256": [
+        "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
+      ],
+      "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.imranr.obtainium/"
+    },
+    {
+      "name": "OSS Document Scanner",
+      "author": "ossappscollective",
+      "package": "com.akylas.documentscanner",
+      "version_name": "2.00.0.166",
+      "version_code": 166,
+      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+      "size": 13130889,
+      "asset_name": "OSS-Document-Scanner-2.00.0.166.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk",
+      "upstream_ref": "github:456497353:786381848:8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.0/166",
+      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
+      "upstream_asset": "app-arm64-v8a-release.apk",
+      "published_at": "2026-11-24T08:46:03Z",
+      "mirrored_at": "2026-11-24T10:08:01Z",
+      "proprietary": false,
+      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
+      "security_scan": {
+        "scanned_at": "2026-11-24T10:07:58Z",
+        "apksigner": {
+          "status": "verified",
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
           ]
         },
         "virustotal": {
@@ -35,84 +79,56 @@
           "undetected": 66,
           "harmless": 0,
           "reputation": 0,
-          "last_analysis_date": 1795470161,
+          "last_analysis_date": 1795510125,
           "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/dd80da62348d5ad57a8d53ef4247f90d4f58c396a4ab797218ca3eb6d3b96918",
-          "checked_at": "2026-11-24T00:06:41Z"
+          "permalink": "https://www.virustotal.com/gui/file/8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+          "checked_at": "2026-11-24T10:07:58Z"
         }
       },
-      "cert_sha256": [
-        "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
-      ],
-      "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.imranr.obtainium/"
-    },
-    {
-      "asset_name": "OSS-Document-Scanner-1.26.2.165.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-1.26.2.165.apk",
-      "author": "ossappscollective",
-      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "mirrored_at": "2026-11-08T16:12:31Z",
-      "name": "OSS Document Scanner",
-      "package": "com.akylas.documentscanner",
-      "proprietary": false,
-      "published_at": "2026-10-22T14:17:01Z",
-      "security_scan": {
-        "apksigner": {
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
-        },
-        "scanned_at": "2026-11-08T16:12:30Z",
-        "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
-        }
-      },
-      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
-      "size": 12006447,
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "upstream_ref": "github:420812743:666081923:bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
-      "upstream_tag": "com.akylas.documentscanner/android/github/1.26.2/165",
-      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/1.26.2/165",
-      "version_code": 165,
-      "version_name": "1.26.2.165",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/com.akylas.documentscanner/"
     },
     {
-      "asset_name": "Hiddify-5.5.5.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.5.5.apk",
-      "author": "hiddify",
-      "homepage": "https://github.com/hiddify/hiddify-app",
-      "mirrored_at": "2026-11-08T16:12:37Z",
       "name": "Hiddify",
+      "author": "hiddify",
       "package": "app.hiddify.com",
+      "version_name": "5.9.15",
+      "version_code": 50915,
+      "sha256": "d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+      "size": 67260345,
+      "asset_name": "Hiddify-5.9.15.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.9.15.apk",
+      "upstream_ref": "github:451019232:766742724:d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+      "upstream_tag": "v5.9.15",
+      "upstream_url": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.15",
+      "upstream_asset": "Hiddify-Android-arm64.apk",
+      "published_at": "2026-11-19T07:44:59Z",
+      "mirrored_at": "2026-11-24T10:08:18Z",
       "proprietary": false,
-      "published_at": "2026-11-04T21:06:14Z",
+      "homepage": "https://github.com/hiddify/hiddify-app",
       "security_scan": {
+        "scanned_at": "2026-11-24T10:08:14Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:12:33Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 65,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795502092,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+          "checked_at": "2026-11-24T10:08:14Z"
         }
       },
-      "sha256": "d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-      "size": 63989614,
-      "upstream_asset": "Hiddify-Android-arm64.apk",
-      "upstream_ref": "github:434454291:710938424:d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-      "upstream_tag": "v5.5.5",
-      "upstream_url": "https://github.com/hiddify/hiddify-app/releases/tag/v5.5.5",
-      "version_code": 50505,
-      "version_name": "5.5.5",
       "cert_sha256": [
         "454bf1f622d0fd5ebf93d4ce51fe5d4a93083b710bf2a01480cd570254c73d92"
       ],
@@ -156,45 +172,45 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/helium314.keyboard/"
     },
     {
-      "name": "KeePassDX",
-      "author": "Kunzisoft",
-      "package": "com.kunzisoft.keepass.libre",
-      "version_name": "4.5.9",
-      "version_code": 45900,
-      "sha256": "7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
-      "size": 16831506,
       "asset_name": "KeePassDX-4.5.9.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/KeePassDX-4.5.9.apk",
-      "upstream_ref": "github:456059004:784735048:7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
-      "upstream_tag": "4.5.9",
-      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.9",
-      "upstream_asset": "KeePassDX-4.5.9-libre.apk",
-      "published_at": "2026-11-23T22:12:48Z",
-      "mirrored_at": "2026-11-24T00:07:18Z",
-      "proprietary": false,
+      "author": "Kunzisoft",
       "homepage": "https://github.com/Kunzisoft/KeePassDX",
+      "mirrored_at": "2026-11-24T00:07:18Z",
+      "name": "KeePassDX",
+      "package": "com.kunzisoft.keepass.libre",
+      "proprietary": false,
+      "published_at": "2026-11-23T22:12:48Z",
       "security_scan": {
-        "scanned_at": "2026-11-24T00:07:14Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-24T00:07:14Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 63,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795472059,
+          "checked_at": "2026-11-24T00:07:14Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795472059,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
-          "checked_at": "2026-11-24T00:07:14Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 63
         }
       },
+      "sha256": "7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
+      "size": 16831506,
+      "upstream_asset": "KeePassDX-4.5.9-libre.apk",
+      "upstream_ref": "github:456059004:784735048:7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
+      "upstream_tag": "4.5.9",
+      "upstream_url": "https://github.com/Kunzisoft/KeePassDX/releases/tag/4.5.9",
+      "version_code": 45900,
+      "version_name": "4.5.9",
       "cert_sha256": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
@@ -605,47 +621,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.46.77",
-      "version_code": 264607749,
-      "sha256": "f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
-      "size": 161827849,
       "asset_name": "WhatsApp-2.26.46.77.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.77.apk",
-      "upstream_ref": "direct:|Mon, 23 Nov 2026 17:04:03 GMT|161827849",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Mon, 23 Nov 2026 17:04:03 GMT",
-      "mirrored_at": "2026-11-24T00:07:39Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-24T00:07:39Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Mon, 23 Nov 2026 17:04:03 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-24T00:07:31Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-24T00:07:31Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 51,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795455875,
+          "checked_at": "2026-11-24T00:07:31Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795455875,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
-          "checked_at": "2026-11-24T00:07:31Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 51
         }
       },
+      "sha256": "f1842450f32ed394fe4edb76fdcdd70092895f40471230ecdcf5cffc59583405",
+      "size": 161827849,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Mon, 23 Nov 2026 17:04:03 GMT|161827849",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264607749,
+      "version_name": "2.26.46.77",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"

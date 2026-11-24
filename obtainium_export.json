@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-24T00:07:43Z",
+  "exportedAt": "2026-11-24T10:08:27Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -43,8 +43,8 @@
       "author": "ossappscollective",
       "name": "OSS Document Scanner",
       "installedVersion": null,
-      "latestVersion": "1.26.2.165",
-      "apkUrls": "[[\"OSS-Document-Scanner-1.26.2.165.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-1.26.2.165.apk\"]]",
+      "latestVersion": "2.00.0.166",
+      "apkUrls": "[[\"OSS-Document-Scanner-2.00.0.166.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -54,11 +54,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/1.26.2/165",
+      "releaseUrl": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 12006447
+      "apkSizeBytes": 13130889
     },
     {
       "id": "app.hiddify.com",
@@ -66,8 +66,8 @@
       "author": "hiddify",
       "name": "Hiddify",
       "installedVersion": null,
-      "latestVersion": "5.5.5",
-      "apkUrls": "[[\"Hiddify-5.5.5.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.5.5.apk\"]]",
+      "latestVersion": "5.9.15",
+      "apkUrls": "[[\"Hiddify-5.9.15.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.9.15.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -77,11 +77,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.5.5",
+      "releaseUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.15",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 63989614
+      "apkSizeBytes": 67260345
     },
     {
       "id": "helium314.keyboard",

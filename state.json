@@ -1,18 +1,18 @@
 {
   "apps": {
     "app.hiddify.com": {
-      "asset_name": "Hiddify-5.5.5.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.5.5.apk",
+      "asset_name": "Hiddify-5.9.15.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Hiddify-5.9.15.apk",
       "author": "hiddify",
       "cert_sha256": [
         "454bf1f622d0fd5ebf93d4ce51fe5d4a93083b710bf2a01480cd570254c73d92"
       ],
       "homepage": "https://github.com/hiddify/hiddify-app",
-      "mirrored_at": "2026-11-08T16:12:37Z",
+      "mirrored_at": "2026-11-24T10:08:18Z",
       "name": "Hiddify",
       "package": "app.hiddify.com",
       "proprietary": false,
-      "published_at": "2026-11-04T21:06:14Z",
+      "published_at": "2026-11-19T07:44:59Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -20,20 +20,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:12:33Z",
+        "scanned_at": "2026-11-24T10:08:14Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-24T10:08:14Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795502092,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
         }
       },
-      "sha256": "d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-      "size": 63989614,
+      "sha256": "d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+      "size": 67260345,
       "upstream_asset": "Hiddify-Android-arm64.apk",
-      "upstream_ref": "github:434454291:710938424:d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-      "upstream_tag": "v5.5.5",
-      "upstream_url": "https://github.com/hiddify/hiddify-app/releases/tag/v5.5.5",
-      "version_code": 50505,
-      "version_name": "5.5.5"
+      "upstream_ref": "github:451019232:766742724:d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+      "upstream_tag": "v5.9.15",
+      "upstream_url": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.15",
+      "version_code": 50915,
+      "version_name": "5.9.15"
     },
     "ch.protonmail.android": {
       "asset_name": "Proton-Mail-7.12.1.apk",
@@ -166,18 +174,18 @@
       "version_name": "1.17.20"
     },
     "com.akylas.documentscanner": {
-      "asset_name": "OSS-Document-Scanner-1.26.2.165.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-1.26.2.165.apk",
+      "asset_name": "OSS-Document-Scanner-2.00.0.166.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk",
       "author": "ossappscollective",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
       "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "mirrored_at": "2026-11-08T16:12:31Z",
+      "mirrored_at": "2026-11-24T10:08:01Z",
       "name": "OSS Document Scanner",
       "package": "com.akylas.documentscanner",
       "proprietary": false,
-      "published_at": "2026-10-22T14:17:01Z",
+      "published_at": "2026-11-24T08:46:03Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -185,20 +193,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:12:30Z",
+        "scanned_at": "2026-11-24T10:07:58Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-24T10:07:58Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795510125,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 66
         }
       },
-      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
-      "size": 12006447,
+      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+      "size": 13130889,
       "upstream_asset": "app-arm64-v8a-release.apk",
-      "upstream_ref": "github:420812743:666081923:bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
-      "upstream_tag": "com.akylas.documentscanner/android/github/1.26.2/165",
-      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/1.26.2/165",
-      "version_code": 165,
-      "version_name": "1.26.2.165"
+      "upstream_ref": "github:456497353:786381848:8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.0/166",
+      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
+      "version_code": 166,
+      "version_name": "2.00.0.166"
     },
     "com.chiller3.rsaf": {
       "asset_name": "RSAF-4.18.apk",
