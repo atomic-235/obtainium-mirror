@@ -166,18 +166,18 @@
       "version_name": "1.17.21"
     },
     "com.akylas.documentscanner": {
-      "asset_name": "OSS-Document-Scanner-2.00.0.166.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk",
+      "asset_name": "OSS-Document-Scanner-2.00.1.167.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.1.167.apk",
       "author": "ossappscollective",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
       "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "mirrored_at": "2026-11-24T10:08:01Z",
+      "mirrored_at": "2026-11-25T08:52:56Z",
       "name": "OSS Document Scanner",
       "package": "com.akylas.documentscanner",
       "proprietary": false,
-      "published_at": "2026-11-24T08:46:03Z",
+      "published_at": "2026-11-24T22:44:24Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -185,28 +185,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-24T10:07:58Z",
+        "scanned_at": "2026-11-25T08:52:53Z",
         "virustotal": {
-          "checked_at": "2026-11-24T10:07:58Z",
+          "checked_at": "2026-11-25T08:52:53Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1795510125,
+          "last_analysis_date": 1795563099,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+          "permalink": "https://www.virustotal.com/gui/file/46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 66
+          "undetected": 67
         }
       },
-      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
-      "size": 13130889,
+      "sha256": "46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+      "size": 13131089,
       "upstream_asset": "app-arm64-v8a-release.apk",
-      "upstream_ref": "github:456497353:786381848:8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
-      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.0/166",
-      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
-      "version_code": 166,
-      "version_name": "2.00.0.166"
+      "upstream_ref": "github:457423115:789152338:46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.1/167",
+      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.1/167",
+      "version_code": 167,
+      "version_name": "2.00.1.167"
     },
     "com.chiller3.rsaf": {
       "asset_name": "RSAF-4.18.apk",

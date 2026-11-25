@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:39:07Z",
+  "generated_at": "2026-11-25T08:53:05Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.5.apk",
@@ -47,44 +47,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.imranr.obtainium/"
     },
     {
-      "asset_name": "OSS-Document-Scanner-2.00.0.166.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk",
-      "author": "ossappscollective",
-      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "mirrored_at": "2026-11-24T10:08:01Z",
       "name": "OSS Document Scanner",
+      "author": "ossappscollective",
       "package": "com.akylas.documentscanner",
+      "version_name": "2.00.1.167",
+      "version_code": 167,
+      "sha256": "46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+      "size": 13131089,
+      "asset_name": "OSS-Document-Scanner-2.00.1.167.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.1.167.apk",
+      "upstream_ref": "github:457423115:789152338:46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.1/167",
+      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.1/167",
+      "upstream_asset": "app-arm64-v8a-release.apk",
+      "published_at": "2026-11-24T22:44:24Z",
+      "mirrored_at": "2026-11-25T08:52:56Z",
       "proprietary": false,
-      "published_at": "2026-11-24T08:46:03Z",
+      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
       "security_scan": {
+        "scanned_at": "2026-11-25T08:52:53Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-24T10:07:58Z",
         "virustotal": {
-          "checked_at": "2026-11-24T10:07:58Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1795510125,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 66
+          "undetected": 67,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795563099,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+          "checked_at": "2026-11-25T08:52:53Z"
         }
       },
-      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
-      "size": 13130889,
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "upstream_ref": "github:456497353:786381848:8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
-      "upstream_tag": "com.akylas.documentscanner/android/github/2.00.0/166",
-      "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
-      "version_code": 166,
-      "version_name": "2.00.0.166",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
@@ -335,36 +335,36 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/org.schabi.newpipe/"
     },
     {
-      "name": "Librera FD",
-      "author": "foobnix",
-      "package": "com.foobnix.pro.pdf.reader",
-      "version_name": "10.2.2-fdroid",
-      "version_code": 7711,
-      "sha256": "3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
-      "size": 128044044,
       "asset_name": "Librera-FD-10.2.2-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.2-fdroid.apk",
+      "author": "foobnix",
+      "homepage": "https://github.com/foobnix/LibreraReader",
+      "mirrored_at": "2026-11-24T22:38:13Z",
+      "name": "Librera FD",
+      "package": "com.foobnix.pro.pdf.reader",
+      "proprietary": false,
+      "published_at": "2026-11-24T18:57:18Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-24T22:38:07Z",
+        "virustotal": {
+          "permalink": "https://www.virustotal.com/gui/file/3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
+          "status": "not_found"
+        }
+      },
+      "sha256": "3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
+      "size": 128044044,
+      "upstream_asset": "Librera.Fdroid-10.2.2-mupdf-uni.apk",
       "upstream_ref": "github:457200058:788445296:3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
       "upstream_tag": "10.2.2",
       "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.2",
-      "upstream_asset": "Librera.Fdroid-10.2.2-mupdf-uni.apk",
-      "published_at": "2026-11-24T18:57:18Z",
-      "mirrored_at": "2026-11-24T22:38:13Z",
-      "proprietary": false,
-      "homepage": "https://github.com/foobnix/LibreraReader",
-      "security_scan": {
-        "scanned_at": "2026-11-24T22:38:07Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad"
-        }
-      },
+      "version_code": 7711,
+      "version_name": "10.2.2-fdroid",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
@@ -487,80 +487,80 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/me.proton.android.drive/"
     },
     {
-      "name": "Proton Mail",
-      "author": "ProtonMail",
-      "package": "ch.protonmail.android",
-      "version_name": "7.12.4",
-      "version_code": 19338,
-      "sha256": "77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
-      "size": 175441570,
       "asset_name": "Proton-Mail-7.12.4.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Mail-7.12.4.apk",
+      "author": "ProtonMail",
+      "homepage": "https://github.com/ProtonMail/android-mail",
+      "mirrored_at": "2026-11-24T22:38:37Z",
+      "name": "Proton Mail",
+      "package": "ch.protonmail.android",
+      "proprietary": false,
+      "published_at": "2026-11-24T13:14:50Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-24T22:38:23Z",
+        "virustotal": {
+          "checked_at": "2026-11-24T22:38:23Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795526454,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
+        }
+      },
+      "sha256": "77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
+      "size": 175441570,
+      "upstream_asset": "ProtonMail-7.12.4_19338.apk",
       "upstream_ref": "github:456774449:787252435:77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
       "upstream_tag": "7.12.4(19338)",
       "upstream_url": "https://github.com/ProtonMail/android-mail/releases/tag/7.12.4(19338)",
-      "upstream_asset": "ProtonMail-7.12.4_19338.apk",
-      "published_at": "2026-11-24T13:14:50Z",
-      "mirrored_at": "2026-11-24T22:38:37Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ProtonMail/android-mail",
-      "security_scan": {
-        "scanned_at": "2026-11-24T22:38:23Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 65,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795526454,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/77549e16b23eb6b4dff2aa9f37d02c452c2bccbed8344ab92852a0ed83c9e9d9",
-          "checked_at": "2026-11-24T22:38:23Z"
-        }
-      },
+      "version_code": 19338,
+      "version_name": "7.12.4",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/ch.protonmail.android/"
     },
     {
-      "name": "Venice AI",
-      "author": "venice.ai",
-      "package": "com.ai.venice",
-      "version_name": "1.17.21",
-      "version_code": 217,
-      "sha256": "12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
-      "size": 225087925,
       "asset_name": "Venice-AI-1.17.21.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.21.apk",
+      "author": "venice.ai",
+      "homepage": "https://venice.ai/lp/download",
+      "mirrored_at": "2026-11-24T22:38:48Z",
+      "name": "Venice AI",
+      "package": "com.ai.venice",
+      "proprietary": true,
+      "published_at": "2026-11-24T17:28:14Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-24T22:38:41Z",
+        "virustotal": {
+          "permalink": "https://www.virustotal.com/gui/file/12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
+          "status": "not_found"
+        }
+      },
+      "sha256": "12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
+      "size": 225087925,
+      "upstream_asset": "venice.apk",
       "upstream_ref": "github:457104904:788152727:12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
       "upstream_tag": "v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
       "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
-      "upstream_asset": "venice.apk",
-      "published_at": "2026-11-24T17:28:14Z",
-      "mirrored_at": "2026-11-24T22:38:48Z",
-      "proprietary": true,
-      "homepage": "https://venice.ai/lp/download",
-      "security_scan": {
-        "scanned_at": "2026-11-24T22:38:41Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50"
-        }
-      },
+      "version_code": 217,
+      "version_name": "1.17.21",
       "cert_sha256": [
         "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
       ],
@@ -605,39 +605,39 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.46.83",
-      "version_code": 264608349,
-      "sha256": "f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
-      "size": 161762313,
       "asset_name": "WhatsApp-2.26.46.83.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.83.apk",
-      "upstream_ref": "direct:|Tue, 24 Nov 2026 22:03:27 GMT|161762313",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Tue, 24 Nov 2026 22:03:27 GMT",
-      "mirrored_at": "2026-11-24T22:39:04Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-24T22:39:04Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Tue, 24 Nov 2026 22:03:27 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-24T22:38:57Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-24T22:38:57Z",
         "virustotal": {
-          "status": "not_found",
-          "permalink": "https://www.virustotal.com/gui/file/f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b"
+          "permalink": "https://www.virustotal.com/gui/file/f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
+          "status": "not_found"
         }
       },
+      "sha256": "f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
+      "size": 161762313,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Tue, 24 Nov 2026 22:03:27 GMT|161762313",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264608349,
+      "version_name": "2.26.46.83",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"

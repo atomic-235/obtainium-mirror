@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-24T22:39:07Z",
+  "exportedAt": "2026-11-25T08:53:05Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -43,8 +43,8 @@
       "author": "ossappscollective",
       "name": "OSS Document Scanner",
       "installedVersion": null,
-      "latestVersion": "2.00.0.166",
-      "apkUrls": "[[\"OSS-Document-Scanner-2.00.0.166.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.0.166.apk\"]]",
+      "latestVersion": "2.00.1.167",
+      "apkUrls": "[[\"OSS-Document-Scanner-2.00.1.167.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.1.167.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -54,11 +54,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.0/166",
+      "releaseUrl": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.1/167",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 13130889
+      "apkSizeBytes": 13131089
     },
     {
       "id": "app.hiddify.com",
