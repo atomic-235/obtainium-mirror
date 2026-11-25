@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:53:05Z",
+  "generated_at": "2026-11-25T21:51:31Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.5.apk",
@@ -47,44 +47,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/dev.imranr.obtainium/"
     },
     {
-      "name": "OSS Document Scanner",
-      "author": "ossappscollective",
-      "package": "com.akylas.documentscanner",
-      "version_name": "2.00.1.167",
-      "version_code": 167,
-      "sha256": "46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
-      "size": 13131089,
       "asset_name": "OSS-Document-Scanner-2.00.1.167.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/OSS-Document-Scanner-2.00.1.167.apk",
+      "author": "ossappscollective",
+      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
+      "mirrored_at": "2026-11-25T08:52:56Z",
+      "name": "OSS Document Scanner",
+      "package": "com.akylas.documentscanner",
+      "proprietary": false,
+      "published_at": "2026-11-24T22:44:24Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-25T08:52:53Z",
+        "virustotal": {
+          "checked_at": "2026-11-25T08:52:53Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795563099,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 67
+        }
+      },
+      "sha256": "46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
+      "size": 13131089,
+      "upstream_asset": "app-arm64-v8a-release.apk",
       "upstream_ref": "github:457423115:789152338:46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
       "upstream_tag": "com.akylas.documentscanner/android/github/2.00.1/167",
       "upstream_url": "https://github.com/ossappscollective/OSS-DocumentScanner/releases/tag/com.akylas.documentscanner/android/github/2.00.1/167",
-      "upstream_asset": "app-arm64-v8a-release.apk",
-      "published_at": "2026-11-24T22:44:24Z",
-      "mirrored_at": "2026-11-25T08:52:56Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ossappscollective/OSS-DocumentScanner",
-      "security_scan": {
-        "scanned_at": "2026-11-25T08:52:53Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 67,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795563099,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
-          "checked_at": "2026-11-25T08:52:53Z"
-        }
-      },
+      "version_code": 167,
+      "version_name": "2.00.1.167",
       "cert_sha256": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
@@ -605,39 +605,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "asset_name": "WhatsApp-2.26.46.83.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.46.83.apk",
-      "author": "WhatsApp",
-      "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-24T22:39:04Z",
       "name": "WhatsApp",
+      "author": "WhatsApp",
       "package": "com.whatsapp",
+      "version_name": "2.26.47.70",
+      "version_code": 264707049,
+      "sha256": "49b8ff486c9f445e895b1de169af3ac045d6b5bf1ebc9dc28eba7edee3e3309f",
+      "size": 164273587,
+      "asset_name": "WhatsApp-2.26.47.70.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.47.70.apk",
+      "upstream_ref": "direct:|Wed, 25 Nov 2026 16:37:33 GMT|164273587",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "upstream_asset": "WhatsApp.apk",
+      "published_at": "Wed, 25 Nov 2026 16:37:33 GMT",
+      "mirrored_at": "2026-11-25T21:51:29Z",
       "proprietary": true,
-      "published_at": "Tue, 24 Nov 2026 22:03:27 GMT",
+      "homepage": "https://www.whatsapp.com/android/",
       "security_scan": {
+        "scanned_at": "2026-11-25T21:51:23Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-24T22:38:57Z",
         "virustotal": {
-          "permalink": "https://www.virustotal.com/gui/file/f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
-          "status": "not_found"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 56,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795625966,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/49b8ff486c9f445e895b1de169af3ac045d6b5bf1ebc9dc28eba7edee3e3309f",
+          "checked_at": "2026-11-25T21:51:23Z"
         }
       },
-      "sha256": "f26c70ddacd72916b4bdb08026d2eb0ba7ff5dbf122620dee21a61ed3aac674b",
-      "size": 161762313,
-      "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Tue, 24 Nov 2026 22:03:27 GMT|161762313",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264608349,
-      "version_name": "2.26.46.83",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
