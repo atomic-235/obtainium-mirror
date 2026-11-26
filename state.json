@@ -409,19 +409,19 @@
       "version_name": "1.6.1"
     },
     "com.whatsapp": {
-      "asset_name": "WhatsApp-2.26.47.70.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.47.70.apk",
+      "asset_name": "WhatsApp-2.26.47.71.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.47.71.apk",
       "author": "WhatsApp",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
       ],
       "homepage": "https://www.whatsapp.com/android/",
-      "mirrored_at": "2026-11-25T21:51:29Z",
+      "mirrored_at": "2026-11-26T08:39:35Z",
       "name": "WhatsApp",
       "package": "com.whatsapp",
       "proprietary": true,
-      "published_at": "Wed, 25 Nov 2026 16:37:33 GMT",
+      "published_at": "Thu, 26 Nov 2026 07:02:16 GMT",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -432,28 +432,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-25T21:51:23Z",
+        "scanned_at": "2026-11-26T08:39:28Z",
         "virustotal": {
-          "checked_at": "2026-11-25T21:51:23Z",
+          "checked_at": "2026-11-26T08:39:28Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1795625966,
+          "last_analysis_date": 1795679230,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/49b8ff486c9f445e895b1de169af3ac045d6b5bf1ebc9dc28eba7edee3e3309f",
+          "permalink": "https://www.virustotal.com/gui/file/10a2ab482f37dea78cc99c5d1c3e1a54e77da148568c3e3840df0af723675a42",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 56
+          "undetected": 54
         }
       },
-      "sha256": "49b8ff486c9f445e895b1de169af3ac045d6b5bf1ebc9dc28eba7edee3e3309f",
-      "size": 164273587,
+      "sha256": "10a2ab482f37dea78cc99c5d1c3e1a54e77da148568c3e3840df0af723675a42",
+      "size": 164417118,
       "upstream_asset": "WhatsApp.apk",
-      "upstream_ref": "direct:|Wed, 25 Nov 2026 16:37:33 GMT|164273587",
+      "upstream_ref": "direct:|Thu, 26 Nov 2026 07:02:16 GMT|164417118",
       "upstream_tag": null,
       "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "version_code": 264707049,
-      "version_name": "2.26.47.70"
+      "version_code": 264707149,
+      "version_name": "2.26.47.71"
     },
     "de.seemoo.at_tracking_detection.release": {
       "asset_name": "AirGuard-3.1.3.apk",
