@@ -131,18 +131,18 @@
       "version_name": "5.21.57.0"
     },
     "com.ai.venice": {
-      "asset_name": "Venice-AI-1.17.21.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.21.apk",
+      "asset_name": "Venice-AI-1.17.22.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.22.apk",
       "author": "venice.ai",
       "cert_sha256": [
         "bc1275ee9284a76d936782baaa8e8d6fd5c2a6ecbaef1d84a3a7222908975a5d"
       ],
       "homepage": "https://venice.ai/lp/download",
-      "mirrored_at": "2026-11-24T22:38:48Z",
+      "mirrored_at": "2026-11-26T21:45:19Z",
       "name": "Venice AI",
       "package": "com.ai.venice",
       "proprietary": true,
-      "published_at": "2026-11-24T17:28:14Z",
+      "published_at": "2026-11-26T15:49:46Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -150,20 +150,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-24T22:38:41Z",
+        "scanned_at": "2026-11-26T21:45:09Z",
         "virustotal": {
-          "permalink": "https://www.virustotal.com/gui/file/12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
-          "status": "not_found"
+          "checked_at": "2026-11-26T21:45:09Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795729394,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/bbf8d433d0cd38ee8515af69b34e30e82bf9268d66b404e93250f86458e8d54f",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
         }
       },
-      "sha256": "12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
-      "size": 225087925,
+      "sha256": "bbf8d433d0cd38ee8515af69b34e30e82bf9268d66b404e93250f86458e8d54f",
+      "size": 225221722,
       "upstream_asset": "venice.apk",
-      "upstream_ref": "github:457104904:788152727:12fa376d98ac2ad6362d37067a044a39cdd385b08f1ba215df5642a4f21bfb50",
-      "upstream_tag": "v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
-      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
-      "version_code": 217,
-      "version_name": "1.17.21"
+      "upstream_ref": "github:459617523:796596061:bbf8d433d0cd38ee8515af69b34e30e82bf9268d66b404e93250f86458e8d54f",
+      "upstream_tag": "v1.17.22-15d3854d-db88-4218-8fa6-e334f7c138ee",
+      "upstream_url": "https://github.com/veniceai/venice-android/releases/tag/v1.17.22-15d3854d-db88-4218-8fa6-e334f7c138ee",
+      "version_code": 219,
+      "version_name": "1.17.22"
     },
     "com.akylas.documentscanner": {
       "asset_name": "OSS-Document-Scanner-2.00.1.167.apk",
@@ -252,18 +260,18 @@
       "version_name": "4.18"
     },
     "com.foobnix.pro.pdf.reader": {
-      "asset_name": "Librera-FD-10.2.2-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.2-fdroid.apk",
+      "asset_name": "Librera-FD-10.2.8-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.8-fdroid.apk",
       "author": "foobnix",
       "cert_sha256": [
         "cdf4e1c31c41a55ed72896bf443ce56d50fb34bb933e3189b3ddc2609c90d8f9"
       ],
       "homepage": "https://github.com/foobnix/LibreraReader",
-      "mirrored_at": "2026-11-24T22:38:13Z",
+      "mirrored_at": "2026-11-26T21:45:00Z",
       "name": "Librera FD",
       "package": "com.foobnix.pro.pdf.reader",
       "proprietary": false,
-      "published_at": "2026-11-24T18:57:18Z",
+      "published_at": "2026-11-26T10:58:18Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -271,20 +279,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-24T22:38:07Z",
+        "scanned_at": "2026-11-26T21:44:53Z",
         "virustotal": {
-          "permalink": "https://www.virustotal.com/gui/file/3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
-          "status": "not_found"
+          "checked_at": "2026-11-26T21:44:53Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795703759,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/8c9c5db3df5e9399755744a59d336e59de3e64951357bb26a4e534d2b08419f8",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 67
         }
       },
-      "sha256": "3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
-      "size": 128044044,
-      "upstream_asset": "Librera.Fdroid-10.2.2-mupdf-uni.apk",
-      "upstream_ref": "github:457200058:788445296:3161ea5d555277330a21694df52e98639ebf49d599ff3f4a89c477e704da40ad",
-      "upstream_tag": "10.2.2",
-      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.2",
-      "version_code": 7711,
-      "version_name": "10.2.2-fdroid"
+      "sha256": "8c9c5db3df5e9399755744a59d336e59de3e64951357bb26a4e534d2b08419f8",
+      "size": 128050800,
+      "upstream_asset": "Librera.Fdroid-10.2.8-mupdf-uni.apk",
+      "upstream_ref": "github:459288399:795471978:8c9c5db3df5e9399755744a59d336e59de3e64951357bb26a4e534d2b08419f8",
+      "upstream_tag": "10.2.8",
+      "upstream_url": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.8",
+      "version_code": 7735,
+      "version_name": "10.2.8-fdroid"
     },
     "com.geeksville.mesh": {
       "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",

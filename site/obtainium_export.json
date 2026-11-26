@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-26T08:39:38Z",
+  "exportedAt": "2026-11-26T21:45:23Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -204,8 +204,8 @@
       "author": "foobnix",
       "name": "Librera FD",
       "installedVersion": null,
-      "latestVersion": "10.2.2-fdroid",
-      "apkUrls": "[[\"Librera-FD-10.2.2-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.2-fdroid.apk\"]]",
+      "latestVersion": "10.2.8-fdroid",
+      "apkUrls": "[[\"Librera-FD-10.2.8-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Librera-FD-10.2.8-fdroid.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -215,11 +215,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.2",
+      "releaseUrl": "https://github.com/foobnix/LibreraReader/releases/tag/10.2.8",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 128044044
+      "apkSizeBytes": 128050800
     },
     {
       "id": "com.chiller3.rsaf",
@@ -319,8 +319,8 @@
       "author": "venice.ai",
       "name": "Venice AI",
       "installedVersion": null,
-      "latestVersion": "1.17.21",
-      "apkUrls": "[[\"Venice-AI-1.17.21.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.21.apk\"]]",
+      "latestVersion": "1.17.22",
+      "apkUrls": "[[\"Venice-AI-1.17.22.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Venice-AI-1.17.22.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -330,11 +330,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.21-07f6d3a7-0a07-4113-8d6d-46d4f4ff66d6",
+      "releaseUrl": "https://github.com/veniceai/venice-android/releases/tag/v1.17.22-15d3854d-db88-4218-8fa6-e334f7c138ee",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 225087925
+      "apkSizeBytes": 225221722
     },
     {
       "id": "nodomain.freeyourgadget.gadgetbridge",
