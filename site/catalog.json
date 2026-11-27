@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:50:30Z",
+  "generated_at": "2026-11-27T21:29:53Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.5.apk",
@@ -459,36 +459,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/de.seemoo.at_tracking_detection.release/"
     },
     {
-      "asset_name": "Proton-Drive-3.3.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.3.1.apk",
-      "author": "ProtonDriveApps",
-      "homepage": "https://github.com/ProtonDriveApps/android-drive",
-      "mirrored_at": "2026-11-08T16:13:21Z",
       "name": "Proton Drive",
+      "author": "ProtonDriveApps",
       "package": "me.proton.android.drive",
+      "version_name": "3.4.0",
+      "version_code": 48931,
+      "sha256": "f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+      "size": 224262567,
+      "asset_name": "Proton-Drive-3.4.0.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.4.0.apk",
+      "upstream_ref": "github:460597548:800482249:f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+      "upstream_tag": "3.4.0",
+      "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.4.0",
+      "upstream_asset": "ProtonDrive-3.4.0.4893.apk",
+      "published_at": "2026-11-27T12:53:23Z",
+      "mirrored_at": "2026-11-27T21:29:41Z",
       "proprietary": false,
-      "published_at": "2026-11-02T10:56:13Z",
+      "homepage": "https://github.com/ProtonDriveApps/android-drive",
       "security_scan": {
+        "scanned_at": "2026-11-27T21:29:32Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-08T16:13:13Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "status": "found",
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 65,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795798996,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+          "checked_at": "2026-11-27T21:29:32Z"
         }
       },
-      "sha256": "e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
-      "size": 199333848,
-      "upstream_asset": "ProtonDrive-3.3.1.4794.apk",
-      "upstream_ref": "github:431349065:701433720:e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
-      "upstream_tag": "3.3.1",
-      "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.3.1",
-      "version_code": 47941,
-      "version_name": "3.3.1",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
@@ -621,47 +629,47 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/nodomain.freeyourgadget.gadgetbridge/"
     },
     {
-      "name": "WhatsApp",
-      "author": "WhatsApp",
-      "package": "com.whatsapp",
-      "version_name": "2.26.47.72",
-      "version_code": 264707249,
-      "sha256": "d7e7cf9aaf085ba41ec66a14ee6722c7ce9219476fbb5500df6f45e4d3667262",
-      "size": 164421385,
       "asset_name": "WhatsApp-2.26.47.72.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/WhatsApp-2.26.47.72.apk",
-      "upstream_ref": "direct:|Fri, 27 Nov 2026 07:14:49 GMT|164421385",
-      "upstream_tag": null,
-      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
-      "upstream_asset": "WhatsApp.apk",
-      "published_at": "Fri, 27 Nov 2026 07:14:49 GMT",
-      "mirrored_at": "2026-11-27T08:50:26Z",
-      "proprietary": true,
+      "author": "WhatsApp",
       "homepage": "https://www.whatsapp.com/android/",
+      "mirrored_at": "2026-11-27T08:50:26Z",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "proprietary": true,
+      "published_at": "Fri, 27 Nov 2026 07:14:49 GMT",
       "security_scan": {
-        "scanned_at": "2026-11-27T08:50:19Z",
         "apksigner": {
-          "status": "verified",
           "schemes": [
             "Verified using v1 scheme (JAR signing): true",
             "Verified using v2 scheme (APK Signature Scheme v2): true",
             "Verified using v3 scheme (APK Signature Scheme v3): true",
             "Verified using v3.1 scheme (APK Signature Scheme v3.1): true"
-          ]
+          ],
+          "status": "verified"
         },
+        "scanned_at": "2026-11-27T08:50:19Z",
         "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 53,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795766831,
+          "checked_at": "2026-11-27T08:50:19Z",
           "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795766831,
+          "malicious": 0,
           "permalink": "https://www.virustotal.com/gui/file/d7e7cf9aaf085ba41ec66a14ee6722c7ce9219476fbb5500df6f45e4d3667262",
-          "checked_at": "2026-11-27T08:50:19Z"
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 53
         }
       },
+      "sha256": "d7e7cf9aaf085ba41ec66a14ee6722c7ce9219476fbb5500df6f45e4d3667262",
+      "size": 164421385,
+      "upstream_asset": "WhatsApp.apk",
+      "upstream_ref": "direct:|Fri, 27 Nov 2026 07:14:49 GMT|164421385",
+      "upstream_tag": null,
+      "upstream_url": "https://www.whatsapp.com/android/current/WhatsApp.apk",
+      "version_code": 264707249,
+      "version_name": "2.26.47.72",
       "cert_sha256": [
         "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
@@ -787,44 +795,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.4-29322943-fdroid.apk",
-      "author": "meshtastic",
-      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
-      "mirrored_at": "2026-11-11T09:46:44Z",
       "name": "Meshtastic",
+      "author": "meshtastic",
       "package": "com.geeksville.mesh",
+      "version_name": "2.8.5 (29323272) fdroid",
+      "version_code": 29323272,
+      "sha256": "5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+      "size": 33116614,
+      "asset_name": "Meshtastic-2.8.5-29323272-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.5-29323272-fdroid.apk",
+      "upstream_ref": "github:460824492:801161727:5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+      "upstream_tag": "v2.8.5",
+      "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.5",
+      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
+      "published_at": "2026-11-27T16:20:53Z",
+      "mirrored_at": "2026-11-27T21:29:52Z",
       "proprietary": false,
-      "published_at": "2026-11-04T23:39:43Z",
+      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
       "security_scan": {
+        "scanned_at": "2026-11-27T21:29:48Z",
         "apksigner": {
+          "status": "verified",
           "schemes": [
             "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ],
-          "status": "verified"
+          ]
         },
-        "scanned_at": "2026-11-11T09:46:42Z",
         "virustotal": {
-          "checked_at": "2026-11-11T09:46:42Z",
-          "detections": [],
-          "harmless": 0,
-          "last_analysis_date": 1793932989,
-          "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-          "reputation": 0,
           "status": "found",
+          "malicious": 0,
           "suspicious": 0,
-          "undetected": 64
+          "undetected": 58,
+          "harmless": 0,
+          "reputation": 0,
+          "last_analysis_date": 1795806191,
+          "detections": [],
+          "permalink": "https://www.virustotal.com/gui/file/5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+          "checked_at": "2026-11-27T21:29:48Z"
         }
       },
-      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-      "size": 48417736,
-      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
-      "upstream_ref": "github:434532777:711186216:6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-      "upstream_tag": "v2.8.4",
-      "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.4",
-      "version_code": 29322943,
-      "version_name": "2.8.4 (29322943) fdroid",
       "cert_sha256": [
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],

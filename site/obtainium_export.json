@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "appVersion": "0.0.0",
-  "exportedAt": "2026-11-27T08:50:30Z",
+  "exportedAt": "2026-11-27T21:29:53Z",
   "settings": {
     "checkOnStart": true,
     "welcomeShown": true,
@@ -273,8 +273,8 @@
       "author": "ProtonDriveApps",
       "name": "Proton Drive",
       "installedVersion": null,
-      "latestVersion": "3.3.1",
-      "apkUrls": "[[\"Proton-Drive-3.3.1.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.3.1.apk\"]]",
+      "latestVersion": "3.4.0",
+      "apkUrls": "[[\"Proton-Drive-3.4.0.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.4.0.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -284,11 +284,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.3.1",
+      "releaseUrl": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.4.0",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 199333848
+      "apkSizeBytes": 224262567
     },
     {
       "id": "ch.protonmail.android",
@@ -457,8 +457,8 @@
       "author": "meshtastic",
       "name": "Meshtastic",
       "installedVersion": null,
-      "latestVersion": "2.8.4 (29322943) fdroid",
-      "apkUrls": "[[\"Meshtastic-2.8.4-29322943-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.4-29322943-fdroid.apk\"]]",
+      "latestVersion": "2.8.5 (29323272) fdroid",
+      "apkUrls": "[[\"Meshtastic-2.8.5-29323272-fdroid.apk\",\"https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.5-29323272-fdroid.apk\"]]",
       "otherAssetUrls": "[]",
       "preferredApkIndex": 0,
       "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"versionExtractionRegEx\":\"<span id=\\\"version\\\">([^<]+)</span>\",\"matchGroupToUse\":\"1\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"trackOnly\":false,\"defaultPseudoVersioningMethod\":\"ETag\",\"zippedApkFilterRegEx\":\"\",\"requestHeader\":[],\"allowInsecure\":false,\"shizukuPretendToBeGooglePlay\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"about\":\"\"}",
@@ -468,11 +468,11 @@
       "categories": [],
       "releaseDate": null,
       "changeLog": null,
-      "releaseUrl": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.4",
+      "releaseUrl": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.5",
       "overrideSource": "HTML",
       "allowIdChange": false,
       "pendingRepoRenameUrl": null,
-      "apkSizeBytes": 48417736
+      "apkSizeBytes": 33116614
     },
     {
       "id": "org.telegram.messenger.web",

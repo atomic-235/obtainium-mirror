@@ -303,18 +303,18 @@
       "version_name": "10.2.8-fdroid"
     },
     "com.geeksville.mesh": {
-      "asset_name": "Meshtastic-2.8.4-29322943-fdroid.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.4-29322943-fdroid.apk",
+      "asset_name": "Meshtastic-2.8.5-29323272-fdroid.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.5-29323272-fdroid.apk",
       "author": "meshtastic",
       "cert_sha256": [
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],
       "homepage": "https://github.com/meshtastic/Meshtastic-Android",
-      "mirrored_at": "2026-11-11T09:46:44Z",
+      "mirrored_at": "2026-11-27T21:29:52Z",
       "name": "Meshtastic",
       "package": "com.geeksville.mesh",
       "proprietary": false,
-      "published_at": "2026-11-04T23:39:43Z",
+      "published_at": "2026-11-27T16:20:53Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -322,28 +322,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-11T09:46:42Z",
+        "scanned_at": "2026-11-27T21:29:48Z",
         "virustotal": {
-          "checked_at": "2026-11-11T09:46:42Z",
+          "checked_at": "2026-11-27T21:29:48Z",
           "detections": [],
           "harmless": 0,
-          "last_analysis_date": 1793932989,
+          "last_analysis_date": 1795806191,
           "malicious": 0,
-          "permalink": "https://www.virustotal.com/gui/file/6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
+          "permalink": "https://www.virustotal.com/gui/file/5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
           "reputation": 0,
           "status": "found",
           "suspicious": 0,
-          "undetected": 64
+          "undetected": 58
         }
       },
-      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-      "size": 48417736,
+      "sha256": "5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+      "size": 33116614,
       "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
-      "upstream_ref": "github:434532777:711186216:6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
-      "upstream_tag": "v2.8.4",
-      "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.4",
-      "version_code": 29322943,
-      "version_name": "2.8.4 (29322943) fdroid"
+      "upstream_ref": "github:460824492:801161727:5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+      "upstream_tag": "v2.8.5",
+      "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.5",
+      "version_code": 29323272,
+      "version_name": "2.8.5 (29323272) fdroid"
     },
     "com.kunzisoft.keepass.libre": {
       "asset_name": "KeePassDX-4.5.9.apk",
@@ -693,18 +693,18 @@
       "version_name": "1.22.0"
     },
     "me.proton.android.drive": {
-      "asset_name": "Proton-Drive-3.3.1.apk",
-      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.3.1.apk",
+      "asset_name": "Proton-Drive-3.4.0.apk",
+      "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.4.0.apk",
       "author": "ProtonDriveApps",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
       "homepage": "https://github.com/ProtonDriveApps/android-drive",
-      "mirrored_at": "2026-11-08T16:13:21Z",
+      "mirrored_at": "2026-11-27T21:29:41Z",
       "name": "Proton Drive",
       "package": "me.proton.android.drive",
       "proprietary": false,
-      "published_at": "2026-11-02T10:56:13Z",
+      "published_at": "2026-11-27T12:53:23Z",
       "security_scan": {
         "apksigner": {
           "schemes": [
@@ -712,20 +712,28 @@
           ],
           "status": "verified"
         },
-        "scanned_at": "2026-11-08T16:13:13Z",
+        "scanned_at": "2026-11-27T21:29:32Z",
         "virustotal": {
-          "reason": "VT_API_KEY not set",
-          "status": "skipped"
+          "checked_at": "2026-11-27T21:29:32Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795798996,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
         }
       },
-      "sha256": "e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
-      "size": 199333848,
-      "upstream_asset": "ProtonDrive-3.3.1.4794.apk",
-      "upstream_ref": "github:431349065:701433720:e0b15e7dc364cfd91ffbb208b65f1b7becab54ebd8c020f01da9fd92054bd02e",
-      "upstream_tag": "3.3.1",
-      "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.3.1",
-      "version_code": 47941,
-      "version_name": "3.3.1"
+      "sha256": "f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+      "size": 224262567,
+      "upstream_asset": "ProtonDrive-3.4.0.4893.apk",
+      "upstream_ref": "github:460597548:800482249:f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+      "upstream_tag": "3.4.0",
+      "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.4.0",
+      "version_code": 48931,
+      "version_name": "3.4.0"
     },
     "nodomain.freeyourgadget.gadgetbridge": {
       "asset_name": "Gadgetbridge-2026.11.1.apk",
