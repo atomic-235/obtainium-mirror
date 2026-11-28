@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:29:53Z",
+  "generated_at": "2026-11-28T08:07:37Z",
   "apps": [
     {
       "asset_name": "Obtainium-1.7.5.apk",
@@ -459,44 +459,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/de.seemoo.at_tracking_detection.release/"
     },
     {
-      "name": "Proton Drive",
-      "author": "ProtonDriveApps",
-      "package": "me.proton.android.drive",
-      "version_name": "3.4.0",
-      "version_code": 48931,
-      "sha256": "f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
-      "size": 224262567,
       "asset_name": "Proton-Drive-3.4.0.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Proton-Drive-3.4.0.apk",
+      "author": "ProtonDriveApps",
+      "homepage": "https://github.com/ProtonDriveApps/android-drive",
+      "mirrored_at": "2026-11-27T21:29:41Z",
+      "name": "Proton Drive",
+      "package": "me.proton.android.drive",
+      "proprietary": false,
+      "published_at": "2026-11-27T12:53:23Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v3 scheme (APK Signature Scheme v3): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-27T21:29:32Z",
+        "virustotal": {
+          "checked_at": "2026-11-27T21:29:32Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795798996,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 65
+        }
+      },
+      "sha256": "f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
+      "size": 224262567,
+      "upstream_asset": "ProtonDrive-3.4.0.4893.apk",
       "upstream_ref": "github:460597548:800482249:f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
       "upstream_tag": "3.4.0",
       "upstream_url": "https://github.com/ProtonDriveApps/android-drive/releases/tag/3.4.0",
-      "upstream_asset": "ProtonDrive-3.4.0.4893.apk",
-      "published_at": "2026-11-27T12:53:23Z",
-      "mirrored_at": "2026-11-27T21:29:41Z",
-      "proprietary": false,
-      "homepage": "https://github.com/ProtonDriveApps/android-drive",
-      "security_scan": {
-        "scanned_at": "2026-11-27T21:29:32Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v3 scheme (APK Signature Scheme v3): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 65,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795798996,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/f54f5c20a42c819733df104dbc365fef4a1ad7ef1cb372093055d177184b5ca7",
-          "checked_at": "2026-11-27T21:29:32Z"
-        }
-      },
+      "version_code": 48931,
+      "version_name": "3.4.0",
       "cert_sha256": [
         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
       ],
@@ -795,44 +795,44 @@
       "page": "https://atomic-235.github.io/obtainium-mirror/apps/io.chameleon.ultra/"
     },
     {
-      "name": "Meshtastic",
-      "author": "meshtastic",
-      "package": "com.geeksville.mesh",
-      "version_name": "2.8.5 (29323272) fdroid",
-      "version_code": 29323272,
-      "sha256": "5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
-      "size": 33116614,
       "asset_name": "Meshtastic-2.8.5-29323272-fdroid.apk",
       "asset_url": "https://github.com/atomic-235/obtainium-mirror/releases/download/apk-mirror/Meshtastic-2.8.5-29323272-fdroid.apk",
+      "author": "meshtastic",
+      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
+      "mirrored_at": "2026-11-27T21:29:52Z",
+      "name": "Meshtastic",
+      "package": "com.geeksville.mesh",
+      "proprietary": false,
+      "published_at": "2026-11-27T16:20:53Z",
+      "security_scan": {
+        "apksigner": {
+          "schemes": [
+            "Verified using v2 scheme (APK Signature Scheme v2): true"
+          ],
+          "status": "verified"
+        },
+        "scanned_at": "2026-11-27T21:29:48Z",
+        "virustotal": {
+          "checked_at": "2026-11-27T21:29:48Z",
+          "detections": [],
+          "harmless": 0,
+          "last_analysis_date": 1795806191,
+          "malicious": 0,
+          "permalink": "https://www.virustotal.com/gui/file/5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+          "reputation": 0,
+          "status": "found",
+          "suspicious": 0,
+          "undetected": 58
+        }
+      },
+      "sha256": "5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
+      "size": 33116614,
+      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
       "upstream_ref": "github:460824492:801161727:5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
       "upstream_tag": "v2.8.5",
       "upstream_url": "https://github.com/meshtastic/Meshtastic-Android/releases/tag/v2.8.5",
-      "upstream_asset": "androidApp-fdroid-arm64-v8a-release.apk",
-      "published_at": "2026-11-27T16:20:53Z",
-      "mirrored_at": "2026-11-27T21:29:52Z",
-      "proprietary": false,
-      "homepage": "https://github.com/meshtastic/Meshtastic-Android",
-      "security_scan": {
-        "scanned_at": "2026-11-27T21:29:48Z",
-        "apksigner": {
-          "status": "verified",
-          "schemes": [
-            "Verified using v2 scheme (APK Signature Scheme v2): true"
-          ]
-        },
-        "virustotal": {
-          "status": "found",
-          "malicious": 0,
-          "suspicious": 0,
-          "undetected": 58,
-          "harmless": 0,
-          "reputation": 0,
-          "last_analysis_date": 1795806191,
-          "detections": [],
-          "permalink": "https://www.virustotal.com/gui/file/5c66c776f254dc6bced5d52a3939d47c4fb2329482fbb34227a9712b677d9723",
-          "checked_at": "2026-11-27T21:29:48Z"
-        }
-      },
+      "version_code": 29323272,
+      "version_name": "2.8.5 (29323272) fdroid",
       "cert_sha256": [
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],
